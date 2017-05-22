@@ -1,0 +1,352 @@
+.checkout
+  padding: 50px 0 100px
+  background: #eee
+  margin-top: 75px
+  position: relative
+  ul.delivery-list
+    padding: 0
+    margin: 0
+    list-style: none
+    li
+      
+      input
+        position: absolute
+        opacity: 0
+        
+        &:checked + label
+          border: 3px solid $dark-blue
+          
+      label
+        padding: 10px
+        background: #fff
+        display: block
+        border: 3px solid #eee
+        cursor: pointer
+        @include tablet-v
+          white-space: nowrap
+          
+        p
+          margin: 0
+          display: inline-block
+          vertical-align: bottom
+          padding-left: 10px
+          pointer-events: none
+          
+        .title-delivery
+          font-size: 18px
+          font-weight: 300
+          margin: 0
+          letter-spacing: 1px
+          line-height: 1
+          @include tablet-v
+            font-size: 14px 
+          
+        .description-delivery
+          font-size: 12px
+          letter-spacing: 1px
+          display: block
+          color: #999
+          @include tablet-v
+            font-size: 10px
+            letter-spacing: 0
+          
+        img
+          display: inline-block
+          width: 35px
+        &:hover
+          border: 3px solid $pink
+  .textarea
+    textarea
+      width: 100%
+      display: block
+      border: 0
+      background: #fff
+      height: 190px
+      padding: 15px
+      letter-spacing: 1px
+      font-weight: 400
+        
+  .submit-box
+    .btn
+      font-size: 18px
+      padding: 1em 2em
+      display: block
+      margin: 25px auto
+        
+        
+        
+
+
+.tenis-game
+  position: absolute
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+  .paddle
+    -webkit-transform-origin: 50% 100%
+    transform-origin: 50% 100%
+    -webkit-animation: 0.5s tilt2 ease-in infinite
+    animation: 0.5s tilt2 ease-in infinite
+
+    .solid
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-orient: vertical
+      -webkit-box-direction: normal
+      -ms-flex-direction: column
+      flex-direction: column
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+
+      .surface
+        width: 100px
+        height: 110px
+        background: -webkit-linear-gradient(45deg, #ec1e40 0%, #ff5476 100%)
+        background: linear-gradient(45deg, #ec1e40 0%, #ff5476 100%)
+        border-radius: 50px 50px 36px 36px
+        box-shadow: -3px 0 #000, -6px 0 #ec1e40
+
+      .hold
+        position: relative
+        .top
+          position: relative
+          top: -10px
+          left: -6px
+          width: 40px
+          height: 20px
+          background: -webkit-linear-gradient(135deg, transparent 5px, transparent 0) bottom right, -webkit-linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+          background: linear-gradient(315deg, transparent 5px, transparent 0) bottom right, linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+          background-size: 50% 50%
+          background-repeat: no-repeat
+          background-image: -webkit-radial-gradient(100% 100% circle, rgba(204, 0, 0, 0) 10px, #E57729 5px), -webkit-radial-gradient(0 100% circle, rgba(204, 0, 0, 0) 10px, #E57729 5px)
+          background-image: radial-gradient(circle at 100% 100%, rgba(204, 0, 0, 0) 10px, #E57729 5px), radial-gradient(circle at 0 100%, rgba(204, 0, 0, 0) 10px, #E57729 5px)
+          &:before
+            display: block
+            content: ''
+            position: relative
+            left: 3px
+            width: 40px
+            height: 20px
+            background: -webkit-linear-gradient(135deg, transparent 5px, transparent 0) bottom right, -webkit-linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+            background: linear-gradient(315deg, transparent 5px, transparent 0) bottom right, linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+            background-size: 50% 50%
+            background-repeat: no-repeat
+            background-image: -webkit-radial-gradient(100% 100% circle, rgba(204, 0, 0, 0) 10px, #FDB581 5px), -webkit-radial-gradient(0 100% circle, rgba(204, 0, 0, 0) 10px, #FDB581 5px)
+            background-image: radial-gradient(circle at 100% 100%, rgba(204, 0, 0, 0) 10px, #FDB581 5px), radial-gradient(circle at 0 100%, rgba(204, 0, 0, 0) 10px, #FDB581 5px)
+          &:after
+            display: block
+            content: ''
+            position: relative
+            top: -20px
+            left: 6px
+            width: 40px
+            height: 20px
+            background: -webkit-linear-gradient(135deg, transparent 5px, transparent 0) bottom right, -webkit-linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+            background: linear-gradient(315deg, transparent 5px, transparent 0) bottom right, linear-gradient(45deg, transparent 5px, transparent 0) bottom left
+            background-size: 50% 50%
+            background-repeat: no-repeat
+            background-image: -webkit-radial-gradient(100% 100% circle, rgba(204, 0, 0, 0) 10px, #fe9f3d 5px), -webkit-radial-gradient(0 100% circle, rgba(204, 0, 0, 0) 10px, #fe9f3d 5px)
+            background-image: radial-gradient(circle at 100% 100%, rgba(204, 0, 0, 0) 10px, #fe9f3d 5px), radial-gradient(circle at 0 100%, rgba(204, 0, 0, 0) 10px, #fe9f3d 5px)
+        .transition
+          position: absolute
+          top: 0px
+          left: 10px
+          width: 20px
+          height: 15px
+          background: -webkit-linear-gradient(bottom, #fd7724 0%, #fe9f3d 60%, #fe9f3d 100%)
+          background: linear-gradient(to top, #fd7724 0%, #fe9f3d 60%, #fe9f3d 100%)
+          border-radius: 100%
+          z-index: 10
+        .handle
+          position: relative
+          top: -10px
+          left: 4px
+          width: 20px
+          height: 55px
+          background: #E57729
+          border-radius: 0 0 5px 5px
+          &:before
+            display: block
+            content: ''
+            position: relative
+            left: 3px
+            width: 20px
+            height: 55px
+            background: #FDB581
+            border-radius: 0 0 5px 5px
+          &:after
+            display: block
+            content: ''
+            position: relative
+            top: -55px
+            left: 6px
+            width: 20px
+            height: 55px
+            background: -webkit-linear-gradient(left, #fd7724 0%, #fe9f3d 30%, #fdb581 100%)
+            background: linear-gradient(to right, #fd7724 0%, #fe9f3d 30%, #fdb581 100%)
+            border-radius: 0 0 5px 5px
+
+    .wiggly
+      position: absolute
+      top: 60px
+      -webkit-transform-origin: 50px 0
+      transform-origin: 50px 0
+      -webkit-animation: 3s tilt infinite
+      animation: 3s tilt infinite
+      .string
+        position: absolute
+        left: 50px
+        width: 150px
+        height: 1px
+        background: -webkit-linear-gradient(top, #fff 0%, #bbb 100%)
+        background: linear-gradient(to bottom, #fff 0%, #bbb 100%)
+        -webkit-animation: 0.5s contract ease-in infinite
+        animation: 0.5s contract ease-in infinite
+      .ball
+        position: absolute
+        top: -15px
+        left: 170px
+        width: 30px
+        height: 30px
+        background: -webkit-radial-gradient(top left ellipse, #fff 30%, #bbb 100%)
+        background: radial-gradient(ellipse at top left, #fff 30%, #bbb 100%)
+        border-radius: 100%
+        -webkit-animation: 0.5s bounce ease-in infinite
+        animation: 0.5s bounce ease-in infinite
+
+@-webkit-keyframes bounce
+  0%
+    left: 170px
+    width: 30px
+
+  10%
+    width: 40px
+
+  50%
+    left: 40px
+    width: 30px
+
+  90%
+    width: 40px
+
+  100%
+    left: 170px
+    width: 30px
+
+
+@keyframes bounce
+  0%
+    left: 170px
+    width: 30px
+
+  10%
+    width: 40px
+
+  50%
+    left: 40px
+    width: 30px
+
+  90%
+    width: 40px
+
+  100%
+    left: 170px
+    width: 30px
+
+
+@-webkit-keyframes contract
+  0%
+    width: 150px
+
+  50%
+    width: 0px
+
+  100%
+    width: 150px
+
+
+@keyframes contract
+  0%
+    width: 150px
+
+  50%
+    width: 0px
+
+  100%
+    width: 150px
+
+
+@-webkit-keyframes tilt
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  20%
+    -webkit-transform: rotate(30deg)
+    transform: rotate(30deg)
+
+  60%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  80%
+    -webkit-transform: rotate(-30deg)
+    transform: rotate(-30deg)
+
+  100%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+
+@keyframes tilt
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  20%
+    -webkit-transform: rotate(30deg)
+    transform: rotate(30deg)
+
+  60%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  80%
+    -webkit-transform: rotate(-30deg)
+    transform: rotate(-30deg)
+
+  100%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+
+@-webkit-keyframes tilt2
+  0%
+    -webkit-transform: rotate(-10deg)
+    transform: rotate(-10deg)
+
+  50%
+    -webkit-transform: rotate(10deg)
+    transform: rotate(10deg)
+
+  100%
+    -webkit-transform: rotate(-10deg)
+    transform: rotate(-10deg)
+
+
+@keyframes tilt2
+  0%
+    -webkit-transform: rotate(-10deg)
+    transform: rotate(-10deg)
+
+  50%
+    -webkit-transform: rotate(10deg)
+    transform: rotate(10deg)
+
+  100%
+    -webkit-transform: rotate(-10deg)
+    transform: rotate(-10deg)

@@ -1,0 +1,247 @@
+header
+  .container-fluid
+    .row
+      .col-sm-4.col-xs-5
+        button.open-off-menu
+          span.lines
+          span.text-menu МЕНЮ
+        button.open-search
+          i.fa.fa-search
+      .col-sm-4.col-xs-2
+        a.logo(href="/")
+          .row
+            .col-sm-6.col-sm-12.col-xs-12.logo-half-one
+              img(src="media/logo-soroka.svg", alt="")
+            .col-sm-6.logo-half-two
+              span
+                img(src="media/logo-soroka-text.svg", alt="")
+              span
+                img(src="media/logo-soroka-long.png", alt="")
+      .col-sm-4.col-xs-5
+        button.open-call
+          i.fa.fa-phone
+        a.cart-box(href="cart.html")
+          i.fa.fa-shopping-cart
+          p 
+            | 1000
+  
+
+.off-canvas-header
+  
+  .first-menu
+    ul.top-menu
+      li 
+        a(href="") Популярное
+      li
+        a(href="") Новинки
+      li
+        a(href="") Видео
+    ul.lang-menu
+      li
+        a(href="") РУС
+      li
+        a(href="") УКР
+    
+    ul.main-menu
+      li
+        a(href="index.html") Главная
+      li
+        a(href="about.html") Оплата
+      li
+        a(href="about.html") Доставка
+      li
+        a(href="about.html#link-why-us") Почему мы?
+      li
+        a(href="about.html#link-question") Вопросы и ответы
+      li
+        a(href="review.html") Отзывы
+      li
+        a.open-contact-form(href="#") Связаться
+      li
+        button.btn.open-login Личный кабинет
+    .clon-top-menu
+      a(href="") sales@sorokavorona.com.ua
+      a(href="") +38 (096) 033-77-00
+      a(href="") +38 (050) 711-44-15
+      a(href="") +38 (063) 313-11-33
+      .work-time
+        p 
+          | Будни 
+          span с 8 до 18
+        p 
+          | Суббота 
+          span с 8 до 15
+        p 
+          |воскрескенье 
+          span Выходной 
+        
+          
+  .second-menu
+    ul.category-menu-header
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/1.gif", alt="")
+          h2.title
+            | Для малышей
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/3.png", alt="")
+          h2.title
+            | Девочке
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/2.gif", alt="")
+          h2.title 
+            | Мальчику
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/6.png", alt="")
+          h2.title
+            | И тем и тем
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/9.png", alt="")
+          h2.title
+            | Деревянные
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/3.gif", alt="")
+          h2.title
+            | Конструкторы
+      li
+        a(href="") 
+          span.icon
+            img(src="media/emoji/222.png", alt="")
+          h2.title
+            | Детская комната
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/4.gif", alt="")
+          h2.title
+            | Канцтовары
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/5.gif", alt="")
+          h2.title
+            | Отдых
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/88.png", alt="")
+          h2.title
+            | Развивающие
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/6.gif", alt="")
+          h2.title
+            | Спорт
+      li
+        a(href="catalog.html") 
+          span.icon
+            img(src="media/emoji/11.png", alt="")
+          h2.title
+            | Уход за малышами
+
+        
+.product-in-box
+  img(src="media/icons/5.png", alt="")
+  span товар в корзине    
+  
+  
+  
+  
+.search-box
+  button.close-modal
+  .search-content
+    h6 поиск
+    input.search-input(type="text" placeholder="Введите ваш запрос сюда" autofocus="true")
+    input.send-search(type="submit" value="Искать")
+    
+    
+    
+    
+    
+    
+    
+.login-modal-box
+  button.close-modal
+  .login-content
+    h6.text-center войти в личный кабинет
+    .login-or-register-box
+      .tabs-nav
+        a.register-link(href="#") 
+          |Нет
+          br
+          |личного кабинета
+        .toggle.to-right
+          .toggle-box
+            span
+
+        a.active.login-link(href="#") 
+          |Есть
+          br
+          |личный кабинет
+      .tabs-content
+        .register-box.tabs-item
+          form#registration-form(action="")
+            .steps-box
+              .step.step-1
+                p
+                  |шаг 
+                  span 1
+                  |/6
+                input(name="name" type="text" placeholder="напишите ваше имя здесь" autofocus="true")
+                button.btn Дальше →
+              .step.step-2
+                p
+                  |шаг 
+                  span 2
+                  |/6
+                input(name="otchestvo" type="text" placeholder="Отчество")
+                button.btn Дальше ↝
+              .step.step-3
+                p
+                  |шаг 
+                  span 3
+                  |/6
+                input(name="familia" type="text" placeholder="Фамилия")
+                button.btn Дальше ↛
+                
+              .step.step-4
+                p
+                  |шаг 
+                  span 4
+                  |/6
+                input(name="email" type="email" placeholder="E-mail")
+                button.btn Дальше ↠
+              .step.step-5
+                p
+                  |шаг 
+                  span 5
+                  |/6
+                input(name="phone" type="number" placeholder="Телефон")
+                button.btn Дальше ↦
+              .step.step-6
+                p
+                  |шаг 
+                  span 6
+                  |/6
+                input(name="pass" type="password" placeholder="Пароль")
+                input.btn(type="submit" value="Отправить ⇵")
+        .login-box.tabs-item.show
+          form(action="")
+            label.text-input(for="#login")
+              input#login(type="email" name="email" placeholder="E-mail")
+            label.text-input(for="#pass")
+              input#pass(type="password" name="password" placeholder="Пароль")
+            label
+              input.btn(type="submit" value="Войти")

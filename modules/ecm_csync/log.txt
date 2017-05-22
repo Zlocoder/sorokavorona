@@ -1,0 +1,404 @@
+2017-03-29 20:24:10 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:26:15 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:26:17 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:26:17 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:26:19 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:21 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:22 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:23 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:23 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:24 - INFO  --> type=catalog&mode=file&filename=v8_32D8_36.zip 
+2017-03-29 20:26:26 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:33 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:26:33 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:26:34 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:26:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:27:02 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:30:25 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:30:26 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:30:26 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:30:28 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:29 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:30 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:31 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:31 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:32 - INFO  --> type=catalog&mode=file&filename=v8_32D8_b7.zip 
+2017-03-29 20:30:32 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:33 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:30:33 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:33 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:30:33 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:33 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:30:33 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:34 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:30:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:34 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:30:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:34 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:30:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:34 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:30:34 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:52 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:30:53 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:53 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 20:30:53 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->10 processed -->Stage end 
+2017-03-29 20:30:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->11 processed -->Stage end 
+2017-03-29 20:30:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->12 processed -->Stage end 
+2017-03-29 20:30:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->13 processed -->Stage end 
+2017-03-29 20:30:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->14 processed -->Stage end 
+2017-03-29 20:30:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:30:54 - INFO  --> Stage -->15 processed -->Stage end 
+2017-03-29 20:30:55 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:31:07 - INFO  --> success 
+2017-03-29 20:39:39 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:39:41 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:39:41 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:39:43 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:44 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:45 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:45 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:46 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:47 - INFO  --> type=catalog&mode=file&filename=v8_32D8_103.zip 
+2017-03-29 20:39:48 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:54 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:39:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:54 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:39:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:54 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:39:54 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:55 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:39:55 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:55 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:39:55 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:55 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:39:55 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:39:55 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:39:55 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:21 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:40:22 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:22 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 20:40:22 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:23 - INFO  --> Stage -->10 processed -->Stage end 
+2017-03-29 20:40:23 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:23 - INFO  --> Stage -->11 processed -->Stage end 
+2017-03-29 20:40:23 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:23 - INFO  --> Stage -->12 processed -->Stage end 
+2017-03-29 20:40:23 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:23 - INFO  --> Stage -->13 processed -->Stage end 
+2017-03-29 20:40:23 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:24 - INFO  --> Stage -->14 processed -->Stage end 
+2017-03-29 20:40:24 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:24 - INFO  --> Stage -->15 processed -->Stage end 
+2017-03-29 20:40:24 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:40:26 - INFO  --> success 
+2017-03-29 20:45:33 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:45:34 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:45:34 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:45:36 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:38 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:38 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:39 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:40 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:40 - INFO  --> type=catalog&mode=file&filename=v8_32D8_138.zip 
+2017-03-29 20:45:41 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:44 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:45:44 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:44 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:45:44 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:44 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:45:44 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:44 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:45:44 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:44 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:45:45 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:45 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:45:45 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:45:45 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:45:45 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:07 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:46:07 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:07 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 20:46:07 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:08 - INFO  --> Stage -->10 processed -->Stage end 
+2017-03-29 20:46:08 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:09 - INFO  --> Stage -->11 processed -->Stage end 
+2017-03-29 20:46:09 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:09 - INFO  --> Stage -->12 processed -->Stage end 
+2017-03-29 20:46:09 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:09 - INFO  --> Stage -->13 processed -->Stage end 
+2017-03-29 20:46:09 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:09 - INFO  --> Stage -->14 processed -->Stage end 
+2017-03-29 20:46:09 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:09 - INFO  --> Stage -->15 processed -->Stage end 
+2017-03-29 20:46:09 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:46:10 - INFO  --> success 
+2017-03-29 20:46:11 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:46:11 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:46:11 - INFO  --> type=catalog&mode=file&filename=v8_32D8_151.zip 
+2017-03-29 20:46:11 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:46:12 - INFO  --> Не установлен GUID типа цены по умолчанию.
+Пожалуйста почитайте базу знаний(http://support.elcommerce.com.ua/kb/faq.php?id=29)
+и установите его в настройках модуля синхронизации 
+2017-03-29 20:46:51 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:46:52 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:46:52 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:46:54 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:55 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:55 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:56 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:57 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:57 - INFO  --> type=catalog&mode=file&filename=v8_32D8_171.zip 
+2017-03-29 20:46:58 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:00 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:47:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:00 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:47:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:00 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:47:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:01 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:47:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:01 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:47:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:01 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:47:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:01 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:47:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:20 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:47:20 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:20 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 20:47:20 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->10 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->11 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->12 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->13 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->14 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:21 - INFO  --> Stage -->15 processed -->Stage end 
+2017-03-29 20:47:21 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 20:47:24 - INFO  --> success 
+2017-03-29 20:47:25 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 20:47:25 - INFO  --> type=catalog&mode=init 
+2017-03-29 20:47:25 - INFO  --> type=catalog&mode=file&filename=v8_32D8_18a.zip 
+2017-03-29 20:47:26 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:26 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 20:47:26 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:26 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 20:47:26 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:27 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 20:47:27 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:27 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 20:47:27 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:31 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 20:47:32 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:32 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 20:47:32 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:32 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 20:47:32 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:32 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 20:47:32 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:32 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 20:47:32 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 20:47:32 - INFO  --> success 
+2017-03-29 20:48:16 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 21:38:56 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 21:38:57 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 21:38:57 - INFO  --> type=catalog&mode=init 
+2017-03-29 21:38:57 - INFO  --> type=catalog&mode=file&filename=v8_32D8_1a0.zip 
+2017-03-29 21:38:57 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:58 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 21:38:58 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:58 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 21:38:58 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:58 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 21:38:58 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:58 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 21:38:59 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:59 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 21:38:59 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:59 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 21:38:59 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:38:59 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 21:38:59 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->10 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->11 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->12 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->13 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->14 processed -->Stage end 
+2017-03-29 21:39:00 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:00 - INFO  --> Stage -->15 processed -->Stage end 
+2017-03-29 21:39:01 - INFO  --> type=catalog&mode=import&filename=import0_1.xml 
+2017-03-29 21:39:01 - INFO  --> success 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=checkauth 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=init 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=file&filename=v8_32D8_1b4.zip 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:02 - INFO  --> Stage -->1 processed -->Stage end 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:02 - INFO  --> Stage -->2 processed -->Stage end 
+2017-03-29 21:39:02 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:03 - INFO  --> Stage -->3 processed -->Stage end 
+2017-03-29 21:39:03 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:03 - INFO  --> Stage -->4 processed -->Stage end 
+2017-03-29 21:39:03 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:04 - INFO  --> Stage -->5 processed -->Stage end 
+2017-03-29 21:39:04 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:04 - INFO  --> Stage -->6 processed -->Stage end 
+2017-03-29 21:39:04 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:04 - INFO  --> Stage -->7 processed -->Stage end 
+2017-03-29 21:39:04 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:04 - INFO  --> Stage -->8 processed -->Stage end 
+2017-03-29 21:39:04 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:04 - INFO  --> Stage -->9 processed -->Stage end 
+2017-03-29 21:39:05 - INFO  --> type=catalog&mode=import&filename=offers0_1.xml 
+2017-03-29 21:39:05 - INFO  --> success 
+2017-04-11 23:42:18 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:19 - INFO  --> Stage -->1 processed -->Stage end 
+2017-04-11 23:42:20 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:20 - INFO  --> Stage -->2 processed -->Stage end 
+2017-04-11 23:42:21 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:21 - INFO  --> Stage -->3 processed -->Stage end 
+2017-04-11 23:42:22 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:22 - INFO  --> Stage -->4 processed -->Stage end 
+2017-04-11 23:42:23 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:35 - INFO  --> Stage -->5 processed -->Stage end 
+2017-04-11 23:42:37 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:37 - INFO  --> Stage -->6 processed -->Stage end 
+2017-04-11 23:42:38 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:38 - INFO  --> Stage -->7 processed -->Stage end 
+2017-04-11 23:42:40 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:49 - INFO  --> Stage -->8 processed -->Stage end 
+2017-04-11 23:42:50 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:50 - INFO  --> Stage -->9 processed -->Stage end 
+2017-04-11 23:42:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:56 - INFO  --> Stage -->10 processed -->Stage end 
+2017-04-11 23:42:58 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:58 - INFO  --> Stage -->11 processed -->Stage end 
+2017-04-11 23:42:59 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:59 - INFO  --> Stage -->12 processed -->Stage end 
+2017-04-11 23:42:59 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:42:59 - INFO  --> Stage -->13 processed -->Stage end 
+2017-04-11 23:43:00 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:43:00 - INFO  --> Stage -->14 processed -->Stage end 
+2017-04-11 23:43:01 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:43:01 - INFO  --> Stage -->15 processed -->Stage end 
+2017-04-11 23:43:02 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-11 23:43:11 - INFO  --> success 
+2017-04-20 21:10:25 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:25 - INFO  --> Stage -->1 processed -->Stage end 
+2017-04-20 21:10:28 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:28 - INFO  --> Stage -->2 processed -->Stage end 
+2017-04-20 21:10:28 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:28 - INFO  --> Stage -->3 processed -->Stage end 
+2017-04-20 21:10:29 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:29 - INFO  --> Stage -->4 processed -->Stage end 
+2017-04-20 21:10:29 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:29 - INFO  --> Stage -->5 processed -->Stage end 
+2017-04-20 21:10:30 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:30 - INFO  --> Stage -->6 processed -->Stage end 
+2017-04-20 21:10:30 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:30 - INFO  --> Stage -->7 processed -->Stage end 
+2017-04-20 21:10:31 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:31 - INFO  --> Stage -->8 processed -->Stage end 
+2017-04-20 21:10:32 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:32 - INFO  --> Stage -->9 processed -->Stage end 
+2017-04-20 21:10:33 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:33 - INFO  --> Stage -->10 processed -->Stage end 
+2017-04-20 21:10:33 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:33 - INFO  --> Stage -->11 processed -->Stage end 
+2017-04-20 21:10:34 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:34 - INFO  --> Stage -->12 processed -->Stage end 
+2017-04-20 21:10:34 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:34 - INFO  --> Stage -->13 processed -->Stage end 
+2017-04-20 21:10:35 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:35 - INFO  --> Stage -->14 processed -->Stage end 
+2017-04-20 21:10:35 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:35 - INFO  --> Stage -->15 processed -->Stage end 
+2017-04-20 21:10:36 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-20 21:10:36 - INFO  --> success 
+2017-04-21 10:04:05 - INFO  -->  You dont have ZIP extension!  
+2017-04-21 10:04:37 - INFO  --> type=catalog&mode=checkauth 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=checkauth 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=init 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=file&filename=import.xml 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=file&filename=offers.xml 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=file&filename=import_files/93/932deae5185711e7a216d4ae52bcdc6c_cf490fff1dfa11e7a216d4ae52bcdc6c.jpg 
+2017-04-21 10:04:50 - INFO  --> type=catalog&mode=file&filename=import_files/93/932deae5185711e7a216d4ae52bcdc6c_f60ea1dd1dfa11e7a216d4ae52bcdc6c.jpg 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->1 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->2 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->3 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->4 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->5 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:51 - INFO  --> Stage -->6 processed -->Stage end 
+2017-04-21 10:04:51 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->7 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->8 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->9 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->10 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->11 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->12 processed -->Stage end 
+2017-04-21 10:04:52 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:52 - INFO  --> Stage -->13 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->14 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->15 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=import.xml 
+2017-04-21 10:04:53 - INFO  --> success 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->1 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->2 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->3 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:53 - INFO  --> Stage -->4 processed -->Stage end 
+2017-04-21 10:04:53 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> Stage -->5 processed -->Stage end 
+2017-04-21 10:04:54 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> Stage -->6 processed -->Stage end 
+2017-04-21 10:04:54 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> Stage -->7 processed -->Stage end 
+2017-04-21 10:04:54 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> Stage -->8 processed -->Stage end 
+2017-04-21 10:04:54 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> Stage -->9 processed -->Stage end 
+2017-04-21 10:04:54 - INFO  --> type=catalog&mode=import&filename=offers.xml 
+2017-04-21 10:04:54 - INFO  --> success 

@@ -1,0 +1,163 @@
+doctype html
+html(lang='en')
+  head
+  
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Catalog page
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='stylesheet', href='css/main.css')
+    script.
+      document.documentElement.className = 'js';
+  body.catalog-page.loading
+    include includes/header
+    main
+      section.page-title
+        .container-fluid
+          .row
+            .col-md-3.col-sm-3
+              a.btn.b-sec(href="") ← назад
+            .col-md-6.col-sm-6.page-title-title
+              h1 Канцтовары
+            .col-md-3.col-sm-3.text-right
+              a.btn.b-sec(href="") следующая →
+      section.catalog
+        .container-fluid
+          .row
+            .col-md-12
+              .filters-box
+                ul
+                  li
+                    input#l1.checkbox(type='checkbox', name='l1', value='1')
+                    label(for='l1')
+                      | Акварель
+                      span  (2)
+                  li
+                    input#l2.checkbox(type='checkbox', name='l2', value='2')
+                    label(for='l2')
+                      | Альбомы
+                      span  (5)
+                  li
+                    input#l3.checkbox(type='checkbox', name='l3', value='3')
+                    label(for='l3')
+                      | Блокноты
+                      span  (13)
+                  li
+                    input#l4.checkbox(type='checkbox', name='l4', value='4')
+                    label(for='l4')
+                      
+                      | Готовальни и циркули
+                      span  (5)
+                  li
+                    input#l5.checkbox(type='checkbox', name='l5', value='5')
+                    label(for='l5')
+                      | Гуашь
+                      span  (1)
+                  li
+                    input#l6.checkbox(type='checkbox', name='l6', value='6')
+                    label(for='l6')
+                      | Для офисв
+                      span  (22)
+                  li
+                    input#l7.checkbox(type='checkbox', name='l7', value='7')
+                    label(for='l7')
+                      | Дневники
+                      span  (1)
+                  li
+                    input#l8.checkbox(type='checkbox', name='l8', value='8')
+                    label(for='l8')
+                      | Карандаши
+                      span  (6)
+                  li
+                    input#l9.checkbox(type='checkbox', name='l9', value='9')
+                    label(for='l9')
+                      | Карандаши
+                      span  (15)
+                  
+                  
+
+
+                
+                    
+                    
+            .col-md-12
+              .filter-box
+                .row
+                  .col-md-3.col-sm-4.price-filter 
+                    h6 цена
+                    p 
+                      
+                      span#layered_price_range 27,25грн. - 61,00грн.
+                    .layered_slider_container
+                      .layered_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all
+                        .ui-slider-range.ui-widget-header.ui-corner-all(style='left: 21.999999999999996%; width: 78%;')
+                        a.ui-slider-handle.ui-state-default.ui-corner-all(href='#', style='left: 21.999999999999996%;')
+                        a.ui-slider-handle.ui-state-default.ui-corner-all(href='#', style='left: 100%;')
+
+
+                  .col-md-3.col-sm-4.age-filter
+                    h6 возраст
+                    p 
+                      span#layered_price_range 27 - 61 год
+                    .layered_slider_container
+                      .layered_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all
+                        .ui-slider-range.ui-widget-header.ui-corner-all(style='left: 21.999999999999996%; width: 78%;')
+                        a.ui-slider-handle.ui-state-default.ui-corner-all(href='#', style='left: 21.999999999999996%;')
+                        a.ui-slider-handle.ui-state-default.ui-corner-all(href='#', style='left: 100%;')
+                  .col-md-3.col-sm-4.sex-filter
+                    h6 Пол
+                    ul
+                      li
+                        input#1(type="radio" name="pol")
+                        label(for="1")
+                          img(src="media/icons/6.png", alt="")
+                          span для девочек
+                      li
+                        input#2(type="radio" name="pol")
+                        label(for="2")
+                          img(src="media/icons/7.png", alt="")
+                          span для мальчиков
+                      li
+                        input#3(type="radio" name="pol")
+                        label(for="3")
+                          img(src="media/icons/8.png", alt="")
+                          span для тех и тех
+                  .col-md-3.col-sm-4.type-box-filter
+                    h6 Тип упаковки
+                    .select
+                      select
+                        option(value='0', selected='selected') Выберите тип упаковки
+                        option(value='05') коробка
+                        option(value='07') пакет
+                        option(value='12') без упаковки
+                        option(value='14') блистер
+                      span.select__arrow
+            .col-md-12
+              .row
+                .col-md-3.col-sm-6
+                  h6 товары — 205 товаров
+                .col-md-3.col-sm-6.col-md-offset-6.sort-box
+                  .select
+                    select
+                      option(value="last") Последние добавленные
+                      option(value="") Цена, по возрастанию
+                      option(value="") Цена, по убыванию
+                      option(value="") От А до Я
+                      option(value="") От Я до А
+                    span.select__arrow
+              .row.catalog-page-thumbs
+                include includes/main-product-items
+           
+    include includes/footer  
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="https://use.fontawesome.com/2b87f5494f.js")
+    script(src="js/lib/lightslider.js")
+    script(src="js/scripts.js")
+    
+    
+  

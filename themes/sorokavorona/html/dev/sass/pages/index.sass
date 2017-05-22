@@ -1,0 +1,263 @@
+.category-main
+  padding: 0px 0 50px
+    
+  a
+    height: 80px
+    margin-bottom: 25px
+    display: block
+    color: $dark-blue
+    @include mobil
+      height: 60px
+    span
+      display: inline-block
+    .cout-cat
+      display: block
+      font-size: 10px
+      color: #999
+      text-transform: uppercase
+      letter-spacing: 1px
+    span.icon
+      width: 50px
+      height: 50px
+      border-radius: 100%
+      display: inline-block
+      vertical-align: text-bottom
+      margin-right: 20px
+      @include tablet-v
+        width: 30px
+        height: 30px
+      @include mobil
+        margin: 0
+      img
+        width: 50px
+        @include tablet-v
+          width: 30px
+    h2
+      display: inline-block
+      font-size: 22px
+      font-weight: 300
+      letter-spacing: 1px
+      @include tablet-v
+        font-size: 18px
+    &:hover
+      text-decoration: underline
+    
+    
+    
+    
+    
+    
+.slider-product-main-box    
+  margin-top: 50px
+.slider-main-product-nav
+  margin-bottom: 50px
+  position: relative
+  .slick-arrow
+    position: absolute
+    top: 0px
+    background: transparent
+    border: 0
+    z-index: 100
+    color: transparent
+    @include mobil
+      top: -15px
+    &:after
+      display: block
+      color: $pink
+      font-size: 30px
+    &.slick-next
+      left: 0
+      &:after
+        content: '←'
+    &.slick-prev
+      right: 0
+      &:after
+        content: '→'
+  .item
+    p
+      display: block
+      font-size: 22px
+      color: $pink
+      font-weight: 300
+      letter-spacing: 1px
+      text-align: center
+      transform: scale(1) translateY(10%)
+      transition: all .6s ease-in-out
+      cursor: pointer
+      @include mobil
+        font-size: 18px
+      span
+        color: #999
+        font-size: 12px
+        letter-spacing: 1px
+        margin: auto
+        display: block
+    &.slick-active
+      p
+        transform: scale(1.5) translateY(0)
+        @include mobil
+          transform: scale(1.2) translateY(0)
+.products-main
+  padding-top: 50px
+  @include mobil
+    padding-top: 25px
+  .tabs-for-products
+    margin: 0
+    list-style: none
+    text-align: center
+    padding: 50px 0
+    width: 100%
+    overflow: hidden
+    @include mobil
+      padding: 25px 0
+    li
+      display: inline-block
+      vertical-align: middle
+      min-width: 300px
+      @include mobil
+        display: block
+        width: 100%
+        margin-bottom: 30px
+        min-width: 100%
+      a
+        display: block
+        font-size: 22px
+        color: $pink
+        font-weight: 300
+        letter-spacing: 1px
+        text-decoration: none
+        padding-bottom: .5em
+        position: relative
+        span
+          position: absolute
+          width: 300px
+          height: 30px
+          bottom: -20px
+          left: 0
+          right: 0
+          color: #999
+          font-size: 12px
+          letter-spacing: 1px
+          margin: auto
+          display: block
+      &:nth-child(2)
+        width: 48%
+        @include mobil
+          display: block
+          width: 100%
+        a
+          transform: scale(2.5)
+          @include mobil
+            transform: scale(1)
+          span
+            display: none
+            @include mobil
+              display: block
+          
+      
+  h3
+    font-size: 32px
+    font-weight: 300
+    margin: 0
+  p
+    color: #999
+    font-weight: 300
+    font-size: 18px
+  
+    
+.contine-watch
+  text-align: center
+  padding: 0
+  .btn
+    font-size: 2em
+    @include mobil
+      font-size: 1.2em
+    
+.alert-box-main
+  background: $pink
+  padding: 30px 0
+  color: #fff
+  transition: all 1.5s ease-in-out
+  text-align: center
+  h3
+    font-size: 24px
+    margin: 0
+    font-weight: 300
+    letter-spacing: 1px
+    @include mobil
+      font-size: 22px
+      margin-bottom: .5em
+  p
+    margin: 0
+    font-size: 13px
+    letter-spacing: 1px
+  &.blue
+    background: $dark-blue
+.main-collection
+  padding: 50px 0 100px
+  position: relative
+  //.icon
+    position: absolute
+    width: 40px
+    height: 40px
+    &.icon29
+      top: 0
+      left: 15%
+    &.icon28
+      top: 20%
+      right: 5%
+    &.icon27
+      bottom: 10%
+      left: 40%
+    &.icon26
+      bottom: 0%
+      right: 20%
+      width: 60px
+      height: 60px
+    &.icon25
+      left: 5%
+      bottom: 0
+    &.icon24
+      left: 0
+      right: 0
+      margin: auto
+      top: 40%
+    &.icon23
+      top: -10%
+      right: 20%
+    
+  .collection-item
+    text-align: center
+    @include mobil
+      margin-bottom: 2em
+    .circle-pic
+      width: 250px
+      height: 250px
+      margin: auto
+      background-size: cover
+      border-radius: 100%
+      transition: all .5s ease-in-out
+      @include mobil
+        width: 200px
+        height: 200px
+    a
+      width: 200px
+      margin: auto
+      display: block
+      color: $pink
+      font-size: 24px
+      font-weight: 300
+      letter-spacing: 1px
+      margin-top: .5em
+      @include mobil
+        font-size: 20px
+        padding-top: .5em
+      i
+        display: block
+        margin-top: .5em
+        font-size: 20px
+    &:hover
+      .circle-pic
+        -webkit-box-shadow: 0px 50px 44px -35px rgba(0,0,0,0.3)
+        -moz-box-shadow: 0px 50px 44px -35px rgba(0,0,0,0.3)
+        box-shadow: 0px 50px 44px -35px rgba(0,0,0,0.3)

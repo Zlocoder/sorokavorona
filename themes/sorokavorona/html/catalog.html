@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalog page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <script>document.documentElement.className = 'js';</script>
+  </head>
+  <body class="catalog-page loading">
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-xs-5">
+            <button class="open-off-menu"><span class="lines"></span><span class="text-menu">МЕНЮ</span></button>
+            <button class="open-search"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="col-sm-4 col-xs-2"><a href="/" class="logo">
+              <div class="row">
+                <div class="col-sm-6 col-sm-12 col-xs-12 logo-half-one"><img src="media/logo-soroka.svg" alt=""></div>
+                <div class="col-sm-6 logo-half-two"><span><img src="media/logo-soroka-text.svg" alt=""></span><span><img src="media/logo-soroka-long.png" alt=""></span></div>
+              </div></a></div>
+          <div class="col-sm-4 col-xs-5">
+            <button class="open-call"><i class="fa fa-phone"></i></button><a href="cart.html" class="cart-box"><i class="fa fa-shopping-cart"></i>
+              <p>
+                 
+                1000
+              </p></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="off-canvas-header">
+      <div class="first-menu">
+        <ul class="top-menu">
+          <li> <a href="">Популярное</a></li>
+          <li><a href="">Новинки</a></li>
+          <li><a href="">Видео</a></li>
+        </ul>
+        <ul class="lang-menu">
+          <li><a href="">РУС</a></li>
+          <li><a href="">УКР</a></li>
+        </ul>
+        <ul class="main-menu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Оплата</a></li>
+          <li><a href="about.html">Доставка</a></li>
+          <li><a href="about.html#link-why-us">Почему мы?</a></li>
+          <li><a href="about.html#link-question">Вопросы и ответы</a></li>
+          <li><a href="review.html">Отзывы</a></li>
+          <li><a href="#" class="open-contact-form">Связаться</a></li>
+          <li>
+            <button class="btn open-login">Личный кабинет</button>
+          </li>
+        </ul>
+        <div class="clon-top-menu"><a href="">sales@sorokavorona.com.ua</a><a href="">+38 (096) 033-77-00</a><a href="">+38 (050) 711-44-15</a><a href="">+38 (063) 313-11-33</a>
+          <div class="work-time">
+            <p>
+               
+              Будни <span>с 8 до 18</span>
+            </p>
+            <p>
+               
+              Суббота <span>с 8 до 15</span>
+            </p>
+            <p>
+               
+              воскрескенье <span>Выходной </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="second-menu">
+        <ul class="category-menu-header">
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/1.gif" alt=""></span>
+              <h2 class="title">Для малышей</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/3.png" alt=""></span>
+              <h2 class="title">Девочке</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/2.gif" alt=""></span>
+              <h2 class="title">
+                 
+                Мальчику
+              </h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/6.png" alt=""></span>
+              <h2 class="title">И тем и тем</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/9.png" alt=""></span>
+              <h2 class="title">Деревянные</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/3.gif" alt=""></span>
+              <h2 class="title">Конструкторы</h2></a></li>
+          <li><a href=""> <span class="icon"><img src="media/emoji/222.png" alt=""></span>
+              <h2 class="title">Детская комната</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/4.gif" alt=""></span>
+              <h2 class="title">Канцтовары</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/5.gif" alt=""></span>
+              <h2 class="title">Отдых</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/88.png" alt=""></span>
+              <h2 class="title">Развивающие</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/6.gif" alt=""></span>
+              <h2 class="title">Спорт</h2></a></li>
+          <li><a href="catalog.html"> <span class="icon"><img src="media/emoji/11.png" alt=""></span>
+              <h2 class="title">Уход за малышами</h2></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product-in-box"><img src="media/icons/5.png" alt=""><span>товар в корзине    </span></div>
+    <div class="search-box">
+      <button class="close-modal"></button>
+      <div class="search-content">
+        <h6>поиск</h6>
+        <input type="text" placeholder="Введите ваш запрос сюда" autofocus="true" class="search-input">
+        <input type="submit" value="Искать" class="send-search">
+      </div>
+    </div>
+    <div class="login-modal-box">
+      <button class="close-modal"></button>
+      <div class="login-content">
+        <h6 class="text-center">войти в личный кабинет</h6>
+        <div class="login-or-register-box">
+          <div class="tabs-nav"><a href="#" class="register-link">
+               
+              Нет<br>личного кабинета</a>
+            <div class="toggle to-right">
+              <div class="toggle-box"><span></span></div>
+            </div><a href="#" class="active login-link">
+               
+              Есть<br>личный кабинет</a>
+          </div>
+          <div class="tabs-content">
+            <div class="register-box tabs-item">
+              <form id="registration-form" action="">
+                <div class="steps-box">
+                  <div class="step step-1">
+                    <p>шаг <span>1</span>/6</p>
+                    <input name="name" type="text" placeholder="напишите ваше имя здесь" autofocus="true">
+                    <button class="btn">Дальше →</button>
+                  </div>
+                  <div class="step step-2">
+                    <p>шаг <span>2</span>/6</p>
+                    <input name="otchestvo" type="text" placeholder="Отчество">
+                    <button class="btn">Дальше ↝</button>
+                  </div>
+                  <div class="step step-3">
+                    <p>шаг <span>3</span>/6</p>
+                    <input name="familia" type="text" placeholder="Фамилия">
+                    <button class="btn">Дальше ↛</button>
+                  </div>
+                  <div class="step step-4">
+                    <p>шаг <span>4</span>/6</p>
+                    <input name="email" type="email" placeholder="E-mail">
+                    <button class="btn">Дальше ↠</button>
+                  </div>
+                  <div class="step step-5">
+                    <p>шаг <span>5</span>/6</p>
+                    <input name="phone" type="number" placeholder="Телефон">
+                    <button class="btn">Дальше ↦</button>
+                  </div>
+                  <div class="step step-6">
+                    <p>шаг <span>6</span>/6</p>
+                    <input name="pass" type="password" placeholder="Пароль">
+                    <input type="submit" value="Отправить ⇵" class="btn">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="login-box tabs-item show">
+              <form action="">
+                <label for="#login" class="text-input">
+                  <input id="login" type="email" name="email" placeholder="E-mail">
+                </label>
+                <label for="#pass" class="text-input">
+                  <input id="pass" type="password" name="password" placeholder="Пароль">
+                </label>
+                <label>
+                  <input type="submit" value="Войти" class="btn">
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="page-title">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-sm-3"><a href="" class="btn b-sec">← назад</a></div>
+            <div class="col-md-6 col-sm-6 page-title-title">
+              <h1>Канцтовары</h1>
+            </div>
+            <div class="col-md-3 col-sm-3 text-right"><a href="" class="btn b-sec">следующая →</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="filters-box">
+                <ul>
+                  <li>
+                    <input id="l1" type="checkbox" name="l1" value="1" class="checkbox">
+                    <label for="l1">Акварель<span> (2)</span></label>
+                  </li>
+                  <li>
+                    <input id="l2" type="checkbox" name="l2" value="2" class="checkbox">
+                    <label for="l2">Альбомы<span> (5)</span></label>
+                  </li>
+                  <li>
+                    <input id="l3" type="checkbox" name="l3" value="3" class="checkbox">
+                    <label for="l3">Блокноты<span> (13)</span></label>
+                  </li>
+                  <li>
+                    <input id="l4" type="checkbox" name="l4" value="4" class="checkbox">
+                    <label for="l4">Готовальни и циркули<span> (5)</span></label>
+                  </li>
+                  <li>
+                    <input id="l5" type="checkbox" name="l5" value="5" class="checkbox">
+                    <label for="l5">Гуашь<span> (1)</span></label>
+                  </li>
+                  <li>
+                    <input id="l6" type="checkbox" name="l6" value="6" class="checkbox">
+                    <label for="l6">Для офисв<span> (22)</span></label>
+                  </li>
+                  <li>
+                    <input id="l7" type="checkbox" name="l7" value="7" class="checkbox">
+                    <label for="l7">Дневники<span> (1)</span></label>
+                  </li>
+                  <li>
+                    <input id="l8" type="checkbox" name="l8" value="8" class="checkbox">
+                    <label for="l8">Карандаши<span> (6)</span></label>
+                  </li>
+                  <li>
+                    <input id="l9" type="checkbox" name="l9" value="9" class="checkbox">
+                    <label for="l9">Карандаши<span> (15)</span></label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="filter-box">
+                <div class="row">
+                  <div class="col-md-3 col-sm-4 price-filter"> 
+                    <h6>цена</h6>
+                    <p> <span id="layered_price_range">27,25грн. - 61,00грн.</span></p>
+                    <div class="layered_slider_container">
+                      <div class="layered_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                        <div style="left: 21.999999999999996%; width: 78%;" class="ui-slider-range ui-widget-header ui-corner-all"></div><a href="#" style="left: 21.999999999999996%;" class="ui-slider-handle ui-state-default ui-corner-all"></a><a href="#" style="left: 100%;" class="ui-slider-handle ui-state-default ui-corner-all"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 age-filter">
+                    <h6>возраст</h6>
+                    <p> <span id="layered_price_range">27 - 61 год</span></p>
+                    <div class="layered_slider_container">
+                      <div class="layered_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                        <div style="left: 21.999999999999996%; width: 78%;" class="ui-slider-range ui-widget-header ui-corner-all"></div><a href="#" style="left: 21.999999999999996%;" class="ui-slider-handle ui-state-default ui-corner-all"></a><a href="#" style="left: 100%;" class="ui-slider-handle ui-state-default ui-corner-all"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 sex-filter">
+                    <h6>Пол</h6>
+                    <ul>
+                      <li>
+                        <input id="1" type="radio" name="pol">
+                        <label for="1"><img src="media/icons/6.png" alt=""><span>для девочек</span></label>
+                      </li>
+                      <li>
+                        <input id="2" type="radio" name="pol">
+                        <label for="2"><img src="media/icons/7.png" alt=""><span>для мальчиков</span></label>
+                      </li>
+                      <li>
+                        <input id="3" type="radio" name="pol">
+                        <label for="3"><img src="media/icons/8.png" alt=""><span>для тех и тех</span></label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-4 type-box-filter">
+                    <h6>Тип упаковки</h6>
+                    <div class="select">
+                      <select>
+                        <option value="0" selected="selected">Выберите тип упаковки</option>
+                        <option value="05">коробка</option>
+                        <option value="07">пакет</option>
+                        <option value="12">без упаковки</option>
+                        <option value="14">блистер</option>
+                      </select><span class="select__arrow"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <h6>товары — 205 товаров</h6>
+                </div>
+                <div class="col-md-3 col-sm-6 col-md-offset-6 sort-box">
+                  <div class="select">
+                    <select>
+                      <option value="last">Последние добавленные</option>
+                      <option value="">Цена, по возрастанию</option>
+                      <option value="">Цена, по убыванию</option>
+                      <option value="">От А до Я</option>
+                      <option value="">От Я до А</option>
+                    </select><span class="select__arrow"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row catalog-page-thumbs">
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/00.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Машинки Тачки 3.шт</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          120 <span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/01.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Машинки гоночные Тачки в бумажной упаковке с пластмасом</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          120 <span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/04.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Конструктор авто паркинг для будущих строителей</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          120 <span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/05.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Мячики из спресованных животных</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          120 <span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/07.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Уточки комплект 3 шт.</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          750<span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/011.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Набор для убийств</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          750<span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/012.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Стремный младенец</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          666<span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <div class="product-thumb"><a href="product.html" class="to-product-link"></a>
+                    <div class="product-pic">
+                      <div style="background-image: url(media/img-p/10/013.jpg)" class="pic"></div>
+                      <div class="rating"></div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-info-title">
+                        <h2>Штука которую сьедят ваши дети</h2>
+                      </div>
+                      <div class="product-info-price">
+                        <h3>
+                           
+                          1750<span>грн</span>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="product-controls"><a href="#" class="btn buy-button">Купить</a></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="contine-watch"><a href="catalog.html" class="btn">Показать больше</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><span class="icon icon21"></span><span class="icon icon16"></span><span class="icon icon6"></span>
+      <div class="container-fluid">
+        <div class="col-md-12">
+          <div class="to-top">
+            <button class="to-top"><img src="media/icons/top.svg" alt=""><span>вверх</span></button>
+          </div>
+          <div class="clon-top-menu"><a href="">sales@sorokavorona.com.ua</a><a href="">+38 (096) 033-77-00</a><a href="">+38 (050) 711-44-15</a><a href="">+38 (063) 313-11-33</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="call-back-box">
+      <button class="close-modal"></button>
+      <div class="call-back-content">
+        <h6>Перезвоните мне</h6>
+        <input type="text" placeholder="Имя">
+        <input type="number" placeholder="Ваш номер телефона">
+        <input type="submit" vlaue="Отправить" class="btn">
+      </div>
+    </div>
+    <div class="contact-form-box">
+      <div class="container-fluid">
+        <div class="row info-contact">
+          <div class="col-md-3">
+            <h6>Связаться с нами</h6>
+          </div>
+          <div class="col-md-3"><a href="">sales@sorokavorona.com.ua</a><a href="">+38 (096) 033-77-00</a></div>
+          <div class="col-md-3"><a href="">+38 (050) 711-44-15</a><a href="">+38 (063) 313-11-33</a></div>
+          <div class="col-md-3 text-right">
+            <button class="btn close-contact">Закрыть ×</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form action="">
+              <div class="first-step step">
+                <textarea id="message" placeholder="Напишите ваше сообщение здесь"></textarea>
+                <button class="btn to-second-step">Дальше ↝</button>
+                <!-- if user login its button send form-->
+                <!---->
+              </div>
+              <div class="second-step step">
+                <input id="name" name="name" type="text" placeholder="Введите имя">
+                <button class="btn to-third-step">Дальше ↬</button>
+              </div>
+              <div class="third-step step">
+                <input name="email" type="text" placeholder="Номер телефона или email">
+                <input type="submit" value="Отправить ⇉" class="btn send">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/2b87f5494f.js"></script>
+    <script src="js/lib/lightslider.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

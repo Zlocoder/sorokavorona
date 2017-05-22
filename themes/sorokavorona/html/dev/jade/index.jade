@@ -1,0 +1,184 @@
+doctype html
+html(lang='en')
+  head
+  
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title New Site
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='stylesheet', href='css/main.css')
+    script.
+      document.documentElement.className = 'js';
+  body.main-page
+    include includes/header
+    main
+      section.category-main
+        .container-fluid
+          .row
+            .col-md-12.text-center
+              h6 категории
+              
+          .row
+            .col-md-12
+              ul.catalog-menu
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/1.gif", alt="")
+                    h2.title
+                      | Для малышей
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/3.png", alt="")
+                    h2.title
+                      | Девочке
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/2.gif", alt="")
+                    h2.title 
+                      | Мальчику
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/6.png", alt="")
+                    h2.title
+                      | И тем и тем
+
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/9.png", alt="")
+                    h2.title
+                      | Деревянные
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/3.gif", alt="")
+                    h2.title
+                      | Конструкторы
+                li
+                  a(href="") 
+                    span.icon
+                      img(src="media/emoji/222.png", alt="")
+                    h2.title
+                      | Детская комната
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/4.gif", alt="")
+                    h2.title
+                      | Канцтовары
+
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/5.gif", alt="")
+                    h2.title
+                      | Отдых
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/88.png", alt="")
+                    h2.title
+                      | Развивающие
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/6.gif", alt="")
+                    h2.title
+                      | Спорт
+                li
+                  a(href="catalog.html") 
+                    span.icon
+                      img(src="media/emoji/11.png", alt="")
+                    h2.title
+                      | Уход за малышами
+      
+      
+      section.alert-box-main
+        .container-fluid
+          .row
+            .col-xs-12
+              h3 Объявление которое нужно заметить
+              p Краткий текст, описывающий это изменение
+            
+      
+      
+              
+      section.slider-product-main-box
+        .container-fluid
+          .row
+            .col-md-12
+              .slider-main-product-nav
+                .item
+                  p
+                    |Новинки
+                    span Последние добавленные товары
+                .item
+                  p
+                    |Популярные
+                    span Товары с лучшими оценками
+                .item
+                  p
+                    |С видео
+                    span Товары с видео обзорами
+              .slider-main-product
+                .item
+                  include includes/main-product-items  
+                .item
+                  include includes/main-product-items  
+                .item
+                  include includes/main-product-items  
+           
+      
+      section.main-collection
+        span.icon.icon29
+        span.icon.icon28
+        span.icon.icon27
+        span.icon.icon26
+        span.icon.icon25
+        span.icon.icon24
+        span.icon.icon23
+        .container-fluid
+          .row
+            .col-md-12.text-center
+              h6 коллекции
+              br
+            .col-md-3
+              .collection-item
+                .circle-pic(style="background-image: url(media/images/03.jpg)")
+                a(href="") 
+                  |Игрушки на радиоуправлении
+            .col-md-3
+              .collection-item
+                .circle-pic(style="background-image: url(media/images/00.jpg)")
+                a(href="") 
+                  |Куклы для наших девочек
+            .col-md-3
+              .collection-item
+                .circle-pic(style="background-image: url(media/images/04.jpg)")
+                a(href="") 
+                  |Мальчишке на 10 лет
+              
+            .col-md-3
+              .collection-item
+                .circle-pic(style="background-image: url(media/images/01.jpg)")
+                a(href="") 
+                  |Играем на природе
+      
+           
+    include includes/footer  
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="https://use.fontawesome.com/2b87f5494f.js")
+    script(src="js/lib/slick.min.js")
+    script(src="js/scripts.js")
+    
+    
+  

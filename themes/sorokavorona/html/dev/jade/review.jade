@@ -1,0 +1,125 @@
+doctype html
+html(lang='en')
+  head
+  
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Catalog page
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='stylesheet', href='css/main.css')
+    script.
+      document.documentElement.className = 'js';
+  body.catalog-page.loading
+    include includes/header
+    main
+      section.need-login-review
+        img(src="media/icons/19.png", alt="")
+        button.btn.open-login Войдите в личный кабинет чтобы оставить отзыв
+      section.review-new-review
+        .container-fluid
+          .row
+            .col-md-12.text-center
+              h6 Оставить отзыв
+            .col-md-6
+              ul.avatar-review
+                li
+                  input#1(type="radio" name="avatar")
+                  label(for="1")
+                    img(src="media/icons/10.png", alt="")
+                li
+                  input#2(type="radio" name="avatar")
+                  label(for="2")
+                    img(src="media/icons/11.png", alt="")
+                li
+                  input#3(type="radio" name="avatar")
+                  label(for="3")
+                    img(src="media/icons/12.png", alt="")
+                li
+                  input#4(type="radio" name="avatar")
+                  label(for="4")
+                    img(src="media/icons/13.png", alt="")
+                li
+                  input#5(type="radio" name="avatar")
+                  label(for="5")
+                    img(src="media/icons/14.png", alt="")
+                li
+                  input#6(type="radio" name="avatar")
+                  label(for="6")
+                    img(src="media/icons/15.png", alt="")
+                li
+                  input#7(type="radio" name="avatar")
+                  label(for="7")
+                    img(src="media/icons/16.png", alt="")
+                li
+                  input#8(type="radio" name="avatar")
+                  label(for="8")
+                    img(src="media/icons/17.png", alt="")
+                li
+                  input#9(type="radio" name="avatar")
+                  label(for="9")
+                    img(src="media/icons/18.png", alt="")
+                
+            //.col-md-4
+              input(type="text" placeholder="Ваше имя")
+              input(type="text" placeholder="Коротко о вас")
+              input(type="email" placeholder="Ваш E-mail")
+            .col-md-6
+              .text-area-box
+                input(type="text" placeholder="Коротко о вас")
+                textarea(placeholder="Ваш отзыв")
+                input.btn(type="submit")
+                
+      section.review-all-review
+        .container-fluid
+          .row.review-items
+            .col-md-12.text-center
+              h6 Все отзывы
+            .col-md-4
+              .review-item
+                img(src="media/icons/14.png", alt="")
+                h4 Иван
+                h5 Прихвостень из преисподни
+                p Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+                .hidden-paragraph
+                  p С другой стороны сложившаяся структура организации играет важную роль в формировании дальнейших направлений развития. Товарищи! рамки и место обучения кадров способствует подготовки и реализации существенных финансовых и административных условий. Товарищи! сложившаяся структура организации влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий. 
+                button.btn.read-paragraph Читать все
+                
+                
+            .col-md-4
+              .review-item
+                img(src="media/icons/15.png", alt="")
+                h4 Лена
+                h5 Домохозяйка
+                p Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+                .answer
+                  h6 ответ администрации
+                  p  Представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+            .col-md-4
+              .review-item
+                img(src="media/icons/10.png", alt="")
+                h4 Дмитрий
+                h5 Бизнесмен
+                p Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+                p Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+            .col-md-4
+              .review-item
+                img(src="media/icons/11.png", alt="")
+                h4 Иван
+                h5 Прихвостень из преисподни
+                p Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.
+              
+            
+           
+    include includes/footer  
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="https://use.fontawesome.com/2b87f5494f.js")
+    script(src="js/lib/lightslider.js")
+    script(src="js/scripts.js")
+    
+    
+  

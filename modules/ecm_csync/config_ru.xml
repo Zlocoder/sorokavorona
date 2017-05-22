@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ecm_csync</name>
+	<displayName><![CDATA[Синхронизация с  1C УТ]]></displayName>
+	<version><![CDATA[6.5.4]]></version>
+	<description><![CDATA[Синхронизация товаров, цен и заказов с 1C УТ]]></description>
+	<author><![CDATA[Elcommerce]]></author>
+	<tab><![CDATA[content_management]]></tab>
+	<confirmUninstall><![CDATA[Удаление модуля в дальнейшем сделает невозможным дифференциальную синхронизацию без проведения полной синхронизации]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

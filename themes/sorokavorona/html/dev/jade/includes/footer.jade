@@ -1,0 +1,64 @@
+footer
+  span.icon.icon21
+  span.icon.icon16
+  span.icon.icon6
+  .container-fluid
+      .col-md-12
+        .to-top
+          button.to-top
+            img(src="media/icons/top.svg", alt="")
+            span вверх
+        .clon-top-menu
+          a(href="") sales@sorokavorona.com.ua
+          a(href="") +38 (096) 033-77-00
+          a(href="") +38 (050) 711-44-15
+          a(href="") +38 (063) 313-11-33
+          
+          
+
+
+
+
+
+.call-back-box
+  button.close-modal
+  .call-back-content
+    h6 Перезвоните мне
+    input(type="text" placeholder="Имя")
+    input(type="number" placeholder="Ваш номер телефона")
+    input.btn(type="submit" vlaue="Отправить")
+
+
+
+          
+          
+.contact-form-box
+  
+  .container-fluid
+    .row.info-contact
+      .col-md-3
+        h6 Связаться с нами
+      
+      .col-md-3
+        a(href="") sales@sorokavorona.com.ua
+        a(href="") +38 (096) 033-77-00
+      .col-md-3
+        a(href="") +38 (050) 711-44-15
+        a(href="") +38 (063) 313-11-33
+      .col-md-3.text-right
+        button.btn.close-contact Закрыть ×
+    .row
+      .col-md-12
+        form(action="")
+          .first-step.step
+            textarea#message(placeholder="Напишите ваше сообщение здесь")
+            button.btn.to-second-step Дальше ↝
+            // if user login its button send form
+            //
+           
+          .second-step.step
+            input#name(name="name" type="text" placeholder="Введите имя")
+            button.btn.to-third-step Дальше ↬
+          .third-step.step
+            input(name="email" type="text" placeholder="Номер телефона или email")
+            input.btn.send(type="submit" value="Отправить ⇉")

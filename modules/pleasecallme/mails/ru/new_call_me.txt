@@ -1,0 +1,5 @@
+Имя {name}
+Телефон {phone}
+Время от {time_from} до {time_to}
+
+{shop_name} - {shop_url}

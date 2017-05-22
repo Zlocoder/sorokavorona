@@ -1,0 +1,125 @@
+.slider-product-main-box
+  .col-md-3.col-xs-6
+    overflow: visible
+    padding: 0
+    border: 1px solid #fff
+.product-thumb
+  position: relative
+  display: block
+  color: #000
+  z-index: 100
+  transition: all .5s ease-in-out
+  &.goout
+    transform: translateY(100px)
+    opacity: 0
+  &.still
+    transform: translateY(0)
+    opacity: 1
+  .to-product-link
+    position: absolute
+    width: 100%
+    height: 100%
+    opacity: 0
+    z-index: 5
+  .product-pic
+    position: relative
+    height: 250px
+    will-change: transform
+    transition: all .5s ease-in-out
+    @include mobil
+      height: 125px
+    .pic
+      height: 250px
+      background: #f1f1f1
+      background-size: cover
+      background-position: center
+      @include mobil
+        background-size: contain
+        height: 125px
+        background-repeat: no-repeat
+      
+    &.big
+      transform: scale(5)
+  .product-info
+    margin-top: .75em
+    &:after
+      content: ''
+      clear: both
+      width: 100%
+      height: 1px
+      display: table
+    .product-info-title
+      float: left
+      width: 80%
+      padding: 0 1em
+      @include mobil
+        float: none
+        width: 100%
+        text-align: left
+      h2
+        font-size: 16px
+        margin: 0
+        font-weight: 300
+        transition: all .3s ease-in-out
+        letter-spacing: 1px
+        height: 41px
+        overflow: hidden
+        line-height: 1.4
+    .product-info-price
+      float: left
+      width: 20%
+      text-align: right
+      padding: 0 1em
+      @include mobil
+        float: none
+        width: 100%
+        text-align: left
+        padding: .5em 1em
+      h3
+        font-size: 20px
+        font-weight: 500
+        margin: 0
+        color: $pink
+        @include mobil
+          font-size: 14px
+        span
+          display: block
+          font-size: 12px
+  .product-controls
+    position: relative
+    padding: .25em 1em 25px
+    z-index: 10
+    .btn
+      opacity: 0
+      transform: translateY(50px)
+      transition: all .2s ease-in-out
+      font-size: .7em
+      @include tablet-h
+        transform: translateY(0)
+        opacity: 1
+      
+    .buy-button
+      font-size: 1em
+      margin: auto
+      display: block
+      width: 110px
+      background: $pink
+      color: #fff
+      border: 1px solid $pink
+      @include mobil
+        font-size: 12px
+      
+    
+  &:hover
+    cursor: pointer
+    .product-info-title
+      h2
+        color: $dark-blue
+        text-decoration: underline
+    .product-controls
+      .btn
+        transform: translateY(0px)
+        opacity: 1
+      
+    
+      

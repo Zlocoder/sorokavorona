@@ -1,0 +1,38 @@
+.product-rating-col {
+    float: left;
+}
+.product-rating select option{
+    float: left;
+}
+.product-rating .btn.btn-secondary{
+    position: relative;
+    top: -30px;
+    left: 77px;
+}
+
+ul .product-image-container img {
+    margin: 0 auto;
+}
+
+.product-rating-col .ui-progressbar-value{
+    border:none;
+    margin:0 !important;
+}
+.progressBar-design ,.progressBar-design_a ,.progressBar-functionality ,.progressBar-functionality_a ,.progressBar-quality ,.progressBar-quality_a{
+    height: 20px !important;
+    padding:0 !important;
+}
+.alert-rating{
+    position: absolute;
+    border-radius: 5px;
+    z-index: 500;
+    top: 74%;
+    left: 34%;
+    width: 262px;
+    height: 64px;
+}
+.your-rate{
+    position: absolute;
+    top: -18px;
+    font-size: 11px;
+}

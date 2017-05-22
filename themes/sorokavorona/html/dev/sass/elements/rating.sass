@@ -1,0 +1,160 @@
+.product-page-rating
+  height: 320px
+  @include mobil
+    height: auto
+
+.rating-item
+  margin-bottom: 2em
+  h4, h5
+    margin: 0
+  h4
+    font-size: 18px
+    font-weight: 400
+    letter-spacing: 1px
+    text-align: center
+  h5
+    font-size: 16px
+    text-align: right
+    font-weight: 400
+    &.rating-count-soroka
+      color: $dark-blue
+      margin-top: 4px
+    &.rating-count-user
+      color: $pink
+  span
+    font-size: 12px
+    text-transform: uppercase
+    letter-spacing: 1px
+    white-space: nowrap
+    display: block
+    padding-top: 6px
+  .user-rating-controls
+    position: relative
+    z-index: 10
+    ul
+      padding: 0
+      margin: 0
+      list-style: none
+      display: table
+      width: 100%
+      
+      li
+        display: table-cell
+        position: relative
+        width: 10%
+        text-align: center
+        input
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 0px
+          left: 0
+          display: block
+          opacity: 0
+          z-index: 100
+          cursor: pointer
+          
+          &:checked + span
+            color: #fff
+            
+        span
+          font-size: 12px
+          font-weight: 500
+          display: block
+          position: relative
+          height: 50px
+          padding-top: 10px
+          &:after
+            content: ''
+            position: absolute
+            width: 1px
+            height: 20px
+            left: 0
+            right: 0
+            display: block
+            margin: auto
+            bottom: 2px
+            background: rgba(0, 0, 0, 0.2)
+          
+  .control-buttons-box 
+    height: 30px
+    position: relative
+    overflow: hidden
+    text-align: center
+    .rating-text
+      text-transform: capitalize
+      display: block
+      padding-top: 7px
+      transition: all .2s ease-in
+      &.to-hide
+        transform: translateY(-40px)
+    .count-rating
+      position: absolute
+      top: 0
+      width: 100%
+      color: $pink
+      opacity: 0
+      display: block
+      text-align: center
+      font-size: 16px
+      span
+        display: inline
+        font-size: 20px
+      &.to-show
+        opacity: 1
+    .btn
+      position: absolute
+      font-size: 14px
+      left: 0
+      right: 0
+      padding: 5px 10px
+      line-height: 1
+      border-color: $pink
+      color: $pink
+      margin: auto
+      display: block
+      width: 90px
+      overflow: hidden
+      background: #fff
+      z-index: 1
+      transform: translateY(10px)
+      &.to-show
+        transform: translateY(-20px)
+      &.to-hide
+        transform: translateY(-50px)
+        
+  .rating-bar
+    width: 100%
+    position: relative
+    background: #eee
+    height: 50px
+    text-align: center
+    vertical-align: middle
+    line-height: 1  
+    cursor: pointer
+    transition: all 1s
+    .bar
+      height: 50px
+      position: absolute
+      left: 0
+      top: 0
+      opacity: .5
+      transition: all 1s
+    &.soroka
+      margin-top: 3px
+      height: 10px
+      .bar
+        height: 10px
+        background: $blue
+        border-bottom: 1px solid #fff
+    &.user-soroka
+      margin-bottom: 5px
+      .bar
+        background: $pink
+    &.done-rating
+      height: 10px
+      .bar
+        height: 10px
+      
+  
+    

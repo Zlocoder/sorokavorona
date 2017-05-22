@@ -1,0 +1,5 @@
+Name {name}
+Phone {phone}
+Time from {time_from} to {time_to}
+
+{shop_name} - {shop_url}

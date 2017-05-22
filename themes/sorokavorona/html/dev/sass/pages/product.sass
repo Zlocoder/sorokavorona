@@ -1,0 +1,375 @@
+.product-page
+  main
+    padding-top: 0
+  
+  header
+    background: transparent
+    height: 55px
+    @include mobil
+      background: $blue
+    a
+      color: #333
+    .open-off-menu
+      .lines, .lines:after, .lines:before
+        background: #333
+      .text-menu
+        color: #333
+    button.open-off-menu
+      height: 55px
+    .logo
+      .logo-half-one img
+        transform: translateY(-25px) scale(.6)
+        @include tablet-v
+          transform: translateY(-25px) scale(.8)
+        @include mobil
+          transform: translate(0)
+      .logo-half-two span
+        transform: translateY(-100px)
+   
+    .cart-box
+      height: 55px
+    &.resize
+      background: $blue
+      
+  .off-canvas-header
+    padding-top: 55px
+    
+    
+.product-page-hero
+  position: relative
+  margin-bottom: 50px
+  @include mobil
+    margin-top: 55px
+.slider-product
+  height: 100vh
+  min-height: 650px
+  position: relative
+  list-style: none
+  padding: 0
+  margin: 0
+  overflow: hidden
+  background: #ddd
+  @include mobil
+    min-height: 350px
+    height: 100%
+  .pic
+    width: 100%
+    margin: auto
+    position: relative
+    height: 100vh
+    min-height: 650px
+    background-size: cover
+    background-position: top center
+    @include tablet-h
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+    @include mobil
+      min-height: 350px
+      height: 100%
+  .video-box
+    position: relative
+    z-index: 10
+    .video-cover
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      background-size: cover
+      background-position: center
+      transition: all .3s ease-in-out
+      @include mobil
+        background-size: 200%
+        background-repeat: no-repeat
+        background-position: center
+    iframe
+      width: 100%
+      height: 100vh
+      position: relative
+      @include mobil
+        min-height: 350px
+        height: 100%
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      border-radius: 100%
+      margin: auto
+      width: 200px
+      height: 200px
+      background: #fff
+      z-index: 100
+      transition: all .3s ease-in-out
+    &:after
+      content: ''
+      position: absolute
+      width: 0
+      height: 0
+      border-top: 50px solid transparent
+      border-left: 100px solid $pink
+      border-bottom: 50px solid transparent
+      top: 5px
+      left: 20px
+      right: 0
+      bottom: 0
+      margin: auto
+      z-index: 200
+      pointer-events: none
+      transition: all .3s ease-in-out
+    &.no-cover
+      .video-cover
+        opacity: 0
+        visibility: hidden
+      &:after, &:before
+        transform: scale(.5)
+        opacity: 0
+  .slick-arrow
+    position: absolute
+    z-index: 1
+    height: 100%
+    top: 0
+    background: transparent
+    border: 0
+    color: transparent
+    outline: none
+    &.slick-next
+      right: 0
+      width: 30%
+      cursor: url(../media/right-arrow.png), auto
+      @include tablet-h
+        background-image: url(../media/right-arrow.png)
+        background-size: 40px
+        background-position: 90% center
+        background-repeat: no-repeat
+      
+    &.slick-prev
+      left: 0
+      width: 30%
+      cursor: url(../media/left-arrow.png), auto
+      @include tablet-h
+        background-image: url(../media/left-arrow.png)
+        background-size: 40px
+        background-position: 10% center
+        background-repeat: no-repeat
+    
+
+.product-page-controls
+  position: absolute
+  width: 100%
+  top: 75px
+  left: 0
+  z-index: 10
+  @include tablet-v
+    display: none
+.lSPager.lSpg
+    bottom: 25px
+    position: absolute
+    left: 0
+    width: 100%
+    text-align: left !important
+    padding-left: 1% !important
+  
+  
+  
+  
+  
+  
+.product-page-content
+  position: relative
+  z-index: 20
+  margin-top: -100px
+  @include tablet-v
+    margin-top: 30px
+.product-page-title
+  h1
+    letter-spacing: 1px
+    margin: 0
+    font-weight: 300
+    padding-top: 5px
+    &.big-size
+      font-size: 34px
+    &.small-size
+      font-size: 26px
+  .product-info-price
+    padding-top: 2px
+    h3
+      font-size: 38px
+      font-weight: 500
+      margin: 0
+      color: $pink
+      span
+        display: block
+        font-size: 12px
+  .product-info-buy
+    padding-top: .5em
+    .btn
+      font-size: 1.5em
+      background: $pink
+      border: 1px solid $pink
+  .product-how-quantity
+    position: relative
+    margin: 60px 0 5px
+    @include tablet-v
+      margin: 20px 0
+    span
+      color: $dark-blue
+      padding: .5em 0
+      font-size: 25px
+      cursor: pointer
+    input
+      width: 50px
+      text-align: center
+      border-radius: 50px
+      padding: .5em
+      margin: 0 1em
+      border: 2px solid $blue
+      outline: none
+      color: #999
+      font-weight: bold
+      background: transparent
+      
+  
+.product-plus-and-minus
+  padding-top: 28px
+  @include tablet-v
+    padding-top: 0
+    margin-bottom: 20px
+    h6
+      margin: 0
+      margin-top: 15px
+  ul
+    padding: 0
+    margin: 0
+    list-style: none
+  .fa-minus-circle
+    color: red    
+  .fa-plus-circle 
+    color: green
+      
+.product-page-features
+  padding-top: 10px
+  @include tablet-h
+    padding-top: 40px
+  @include tablet-v
+    padding-top: 30px
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    li
+      color: #000
+      margin-bottom: 5px
+      font-size: 16px
+      &:nth-child(1)
+        font-size: 14px
+        span
+          font-size: 12px
+      &:nth-child(2)
+        margin-bottom: 75px
+        font-size: 14px
+        @include tablet-h
+          margin-bottom: 5px
+        span
+          font-size: 12px
+      span
+        color: #777
+        text-transform: uppercase
+        font-size: 12px
+        letter-spacing: 1px
+  
+  
+.product-page-description
+  padding-top: 30px
+  p
+    font-weight: 300
+    font-size: 18px
+    color: rgba(0, 0, 0, 0.55)
+.product-min-price
+  p
+    font-size: 12px
+    letter-spacing: 1px
+    color: #999
+    span
+      font-weight: bold
+    
+    
+//.product-buy-help
+  padding: 1.75em 0
+  position: relative
+  ul
+    padding: 0
+    margin: 0
+    list-style: none
+    li
+      float: left
+      width: 33%
+      text-align: center
+      a
+        border-bottom: dashed 1px #999
+        color: #999
+        font-size: 12px
+        text-transform: uppercase
+        letter-spacing: 1px
+        text-decoration: none
+        position: relative
+        &:hover
+          color: $dark-blue
+          border-color: $dark-blue
+          
+      .info-box
+        position: absolute
+        width: 100%
+        top: 100%
+        left: 0
+        height: auto
+        background: $dark-blue
+        padding: 1em
+        text-align: left
+        opacity: 0
+        visibility: hidden
+        transform: translateY(10px)
+        transition: all .5s
+        p
+          font-size: 14px
+          font-weight: 300
+          color: #fff  
+        &:after
+          content: ''
+          width: 15px
+          height: 15px
+          background: $dark-blue
+          position: absolute
+          display: block
+          margin: auto
+          top: -3px
+          transform: rotate(45deg)
+          transition-delay: .1s
+          transition: all .4s ease-in-out
+          opacity: 0
+        &.top-arrow-left
+          &:after
+            left: 15%
+        &.top-arrow-center
+          &:after
+            left: 0
+            right: 0
+        &.top-arrow-right
+          &:after
+            right: 15%
+      &:hover a + .info-box
+        opacity: 1
+        visibility: visible
+        transform: translateY(0px)
+        &:after
+          opacity: 1
+    
+.comments-and-other-row
+  padding-top: 50px
+  
+.product-size-control
+  .select
+    width: 100px

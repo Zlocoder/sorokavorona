@@ -1,1 +1,0 @@
-velikotska.loc

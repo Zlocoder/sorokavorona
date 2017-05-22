@@ -1,0 +1,507 @@
+doctype html
+html(lang='en')
+  head
+  
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Product page
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='stylesheet', href='css/main.css')
+    script.
+      document.documentElement.className = 'js';
+  body.product-page.loading
+    include includes/header
+    main
+      section.product-page-hero
+        ul.slider-product
+          li
+            .pic(style="background-image: url(media/img-p/10/07.jpg)")
+          li
+            .video-box
+              iframe(type='text/html', src='https://www.youtube.com/embed/uxpDa-c-4Mc?controls=0&fs=0&rel=0&showinfo=0&color=white&enablejsapi=1', frameborder='0', allowfullscreen='')
+              .video-cover(style="background-image: url(media/img-p/10/09.jpg)")
+
+
+           
+          li
+            .pic(style="background-image: url(media/img-p/10/016.jpg)")
+          li
+            .pic(style="background-image: url(media/img-p/10/020.jpg)")
+        .product-page-controls
+          .container-fluid
+            .row
+              .col-md-6
+                a.btn.b-sec(href="") ← Назад
+              .col-md-6.text-right
+                
+      
+        .container-fluid.product-page-content
+          .row.product-page-title
+            .col-md-6.col-sm-8.col-xs-12
+              .row
+                .col-md-12
+                  .product-info-title
+                    h1 Игрушечные машинки Тачки 3шт. Текст расчитан на две строки, но оно может ужаться
+              .row
+                .col-md-6
+                  .product-page-description
+                    h6 Описание
+                    p Ниже будет пагинация, потому что будем отображать только 3 комментария и ограничим заголовки и комментарии. Максимум три строки комментария получится. Не больше!
+                .col-md-6
+                  .product-plus-and-minus
+                    h6
+                      i.fa.fa-plus-circle 
+                      |  Плюсы
+                    ul
+                      li Хорошее качество
+
+                  
+                    h6
+                      i.fa.fa-minus-circle
+                      |  Минусы
+                    ul
+                      li не обнаружено
+            .col-md-3.col-sm-4
+              .product-info-price
+                h3 
+                  | 1500
+                  span грн
+              .product-how-quantity
+                span.quantity-minus -
+                input.quantity-amount(type="number" value="1")
+                span.quantity-plus +
+                    
+              .product-info-buy
+                a.btn(href="") 
+                  i.fa.fa-cart-plus 
+                  |  Купить
+                
+            .col-md-3
+              .row
+                .col-md-12
+                  .product-page-features
+                    
+                    ul
+                      li 
+                        span Код товара: 
+                        |000122
+                      li 
+                        span Артикул: 
+                        |Sluban
+                      li 
+                        span Бренд: 
+                        |Sluban
+                      li 
+                        span Размеры в упаковке: 
+                        |35x25x15см
+                      li 
+                        span Размеры товара: 
+                        |10см, 8см
+                      li 
+                        span Тип упаковки: 
+                        |коробка
+                      li 
+                        span Возраст: 
+                        |от 0 до 6
+                      li 
+                        span Пол: 
+                        |для девочек
+                    
+            
+         
+                  
+                      
+                
+            
+              
+              
+                  
+                
+              
+          .row.comments-and-other-row
+            .col-md-3.col-sm-6
+              .comments-for-login
+                h6 ОСТАВИТЬ КОММЕНТАРИЙ
+                input(type="text" placeholder="Заголовок")
+                textarea#comment-body(name="" placeholder="Комментарий" maxlength="240")
+                input.btn(type="submit" value="Публиковать")
+                
+              // for no login  
+              //.comments
+                h6 ОСТАВИТЬ КОММЕНТАРИЙ
+                
+                label.maxlengthtitle
+                  span 60
+                  | /60
+                input#email(type="text" placeholder="Ваш e-mail")
+                input#comment-title(type="text" placeholder="Тема" maxlength="60") 
+                label.maxlengthbody
+                  span 230
+                  | /230
+                textarea#comment-body(name="" placeholder="Комментарий" maxlength="240")
+
+                  
+                    
+                .row.capcha-new
+                  .col-xs-12
+                    p.text-center Что кушает ворона?
+                  .col-xs-3
+                    
+                    img(src="media/logo-soroka.svg", alt="")
+                  .col-xs-3
+                    .capha-item
+                      input#not-found(type="radio" name="capcha")
+                      label(for="not-found") 
+                        span(style="background-image: url(media/img-p/select-one.jpg)")
+                  .col-xs-3
+                    .capha-item
+                      input#yes-this(type="radio" name="capcha")
+                      label(for="yes-this")
+                        span(style="background-image: url(media/img-p/select-two.jpg)")
+                  .col-xs-3
+                    .capha-item
+                      input#not-found-two(type="radio" name="capcha")
+                      label(for="not-found-two")
+                        span(style="background-image: url(media/img-p/select-three.jpg)")
+                .row
+                  
+                  .col-xs-12.text-center
+                    input.btn(type="submit" value="Публиковать")
+              
+            
+                    
+            .col-md-4.col-md-push-5.col-sm-6
+              .product-page-rating
+                h6 Оценки
+                .rating-item.design-rating
+                  .row
+                    .col-xs-4
+                      span Сорока
+                    .col-xs-4
+                      h4 Дизайн
+                    .col-xs-4
+                      h5.rating-count-soroka 8.7/10
+                  .row
+                    .col-xs-12
+                      .rating-bar.soroka
+                        .bar(style="width: 85%")
+                      .rating-bar.user-soroka
+                        .user-rating-controls
+                          ul
+                            li
+                              input(type="radio" name="user-design-rating" value="1")
+                              span 1
+                            li
+                              input(type="radio" name="user-design-rating" value="2")
+                              span 2
+                            li
+                              input(type="radio" name="user-design-rating" value="3")
+                              span 3
+                            li
+                              input(type="radio" name="user-design-rating" value="4")
+                              span 4
+                            li
+                              input(type="radio" name="user-design-rating" value="5")
+                              span 5
+                            li
+                              input(type="radio" name="user-design-rating" value="6")
+                              span 6
+                            li
+                              input(type="radio" name="user-design-rating" value="7")
+                              span 7
+                            li
+                              input(type="radio" name="user-design-rating" value="8")
+                              span 8
+                            li
+                              input(type="radio" name="user-design-rating" value="9")
+                              span 9
+                            li
+                              input(type="radio" name="user-design-rating" value="10")
+                              span 10
+                              
+                        .bar(style="width: 87%")
+                  .row
+                    .col-xs-3
+                      span Клиенты 3
+                    .col-xs-6
+                      .control-buttons-box
+                        span.rating-text Поставить
+                        button.btn.open-rating-design Оценить
+                        .count-rating 
+                          |Ваша 
+                          span
+                    .col-xs-3
+                      h5.rating-count-user 8.7/10
+                      
+                      
+                .rating-item.functional-rating
+                  .row
+                    .col-xs-4
+                      span Сорока
+                    .col-xs-4
+                      h4 Функционал
+                    .col-xs-4
+                      h5.rating-count-soroka 8.7/10
+                  .row
+                    .col-xs-12
+                      .rating-bar.soroka
+                        .bar(style="width: 85%")
+                      .rating-bar.user-soroka
+                        .user-rating-controls
+                          ul
+                            li
+                              input(type="radio" name="user-design-rating" value="1")
+                              span 1
+                            li
+                              input(type="radio" name="user-design-rating" value="2")
+                              span 2
+                            li
+                              input(type="radio" name="user-design-rating" value="3")
+                              span 3
+                            li
+                              input(type="radio" name="user-design-rating" value="4")
+                              span 4
+                            li
+                              input(type="radio" name="user-design-rating" value="5")
+                              span 5
+                            li
+                              input(type="radio" name="user-design-rating" value="6")
+                              span 6
+                            li
+                              input(type="radio" name="user-design-rating" value="7")
+                              span 7
+                            li
+                              input(type="radio" name="user-design-rating" value="8")
+                              span 8
+                            li
+                              input(type="radio" name="user-design-rating" value="9")
+                              span 9
+                            li
+                              input(type="radio" name="user-design-rating" value="10")
+                              span 10
+                              
+                        .bar(style="width: 87%")
+                  .row
+                    .col-xs-3
+                      span Клиенты 3
+                    .col-xs-6
+                      .control-buttons-box
+                        span.rating-text Поставить
+                        button.btn.open-rating-functional Оценить
+                        .count-rating 
+                          |Ваша 
+                          span
+                    .col-xs-3
+                      h5.rating-count-user 8.7/10
+                      
+                      
+                .rating-item.quality-rating
+                  .row
+                    .col-xs-4
+                      span Сорока
+                    .col-xs-4
+                      h4 Качество
+                    .col-xs-4
+                      h5.rating-count-soroka 8.7/10
+                  .row
+                    .col-xs-12
+                      .rating-bar.soroka
+                        .bar(style="width: 85%")
+                      .rating-bar.user-soroka
+                        .user-rating-controls
+                          ul
+                            li
+                              input(type="radio" name="user-rading" value="1")
+                              span 1
+                            li
+                              input(type="radio" name="user-rading" value="2")
+                              span 2
+                            li
+                              input(type="radio" name="user-rading" value="3")
+                              span 3
+                            li
+                              input(type="radio" name="user-rading" value="4")
+                              span 4
+                            li
+                              input(type="radio" name="user-rading" value="5")
+                              span 5
+                            li
+                              input(type="radio" name="user-rading" value="6")
+                              span 6
+                            li
+                              input(type="radio" name="user-rading" value="7")
+                              span 7
+                            li
+                              input(type="radio" name="user-rading" value="8")
+                              span 8
+                            li
+                              input(type="radio" name="user-rading" value="9")
+                              span 9
+                            li
+                              input(type="radio" name="user-rading" value="10")
+                              span 10
+                              
+                        .bar(style="width: 57%")
+                  .row
+                    .col-xs-4
+                      span Клиенты 3
+                    .col-xs-4
+                      .control-buttons-box
+                        span.rating-text Поставить
+                        button.btn.open-rating-quality Оценить
+                        .count-rating 
+                          |Ваша 
+                          span
+                    .col-xs-4
+                      h5.rating-count-user 8.7/10
+          
+            .col-md-5.col-md-pull-4.col-sm-12.col-xs-12
+              // no comments on page
+              .user-comments
+                h6 Комментарии:
+                .comment-item.no-comment
+                  img(src="media/icons/15.png", alt="")
+                  h4 Нет комментариев
+                  p 
+                    | ↫
+                    |Будь первым
+                  
+            
+              // Comments on page
+              //.users-comments
+                h6 Комментарии:
+                .comment-item
+                  .comment-info
+                    span
+                      i.fa.fa-user 
+                      |  Роман Труба
+                    span.date
+                      | 20 марта 2017
+                  .comment-body
+                    h5 Очень интересная игрушка
+                    p Никогда прежде не играл в машинки. Но вот решил купить у вас на сайте, изза того что у товара были очень высокие оценки. И вы правы! Просто потрясающе
+                .comment-item
+                  .comment-info
+                    span
+                      i.fa.fa-user 
+                      |  Роман Труба
+                    span.date
+                      | 20 марта 2017
+                  .comment-body
+                    h5 Машинки сломались!
+                    p Спустя буквально 15 минут после начала игры у одной машинки отпало колесо, у второй слезли наклейки, а третья куда-то пропала.
+                .comment-item
+                  .comment-info
+                    span
+                      i.fa.fa-user 
+                      |  Роман Труба
+                    span.date
+                      | 20 марта 2017
+                  .comment-body
+                    h5 Последний комментарий, просто невероятно! А тут всего 60
+                    p Ниже будет пагинация, потому что будем отображать только 3 комментария и ограничим заголовки и комментарии. Максимум три строки комментария получится. Не больше! Остальное нужно заполнить текстом, чтобы третья строка отобразилась. 230 символов
+                    
+                ul.pagination  
+                  li
+                    a(href="")
+                      img(src="media/left-arrow.png", alt="")
+                  li
+                    a(href="") 1
+                  li
+                    a(href="") 2
+                  li
+                    a(href="") 3
+                  li
+                    a(href="")
+                      img(src="media/right-arrow.png", alt="")
+      section.product-page-hero
+        ul.slider-product
+          li
+            .pic(style="background-image: url(media/img-p/10/05.jpg)")
+                
+          li
+            .pic(style="background-image: url(media/img-p/10/03.jpg)")
+          li
+            .pic(style="background-image: url(media/img-p/10/011.jpg)")
+        .container-fluid.product-page-content
+          .row.product-page-title
+            .col-md-6
+              .row
+                .col-md-12
+                  .product-info-title
+                    h1 Лица животных
+ 
+            .col-md-3
+              .product-info-price
+                h3 
+                  | 150
+                  span грн
+                
+            .col-md-3.text-right
+              a.btn.b-big(href="") Подробней
+      section.product-page-hero
+        ul.slider-product
+          li
+            .pic(style="background-image: url(media/img-p/10/06.jpg)")
+                
+          li
+            .pic(style="background-image: url(media/img-p/10/03.jpg)")
+          li
+            .pic(style="background-image: url(media/img-p/10/011.jpg)")
+        .container-fluid.product-page-content
+          .row.product-page-title
+            .col-md-6
+              .row
+                .col-md-12
+                  .product-info-title
+                    h1 Ниндзя
+ 
+            .col-md-3
+              .product-info-price
+                h3 
+                  | 150
+                  span грн
+                
+            .col-md-3.text-right
+              a.btn.b-big(href="") Подробней
+      section.product-page-hero
+        ul.slider-product
+          li
+            .pic(style="background-image: url(media/img-p/10/03.jpg)")
+                
+          li
+            .pic(style="background-image: url(media/img-p/10/021.jpg)")
+          li
+            .pic(style="background-image: url(media/img-p/10/011.jpg)")
+        .container-fluid.product-page-content
+          .row.product-page-title
+            .col-md-6
+              .row
+                .col-md-12
+                  .product-info-title
+                    h1 Батут
+ 
+            .col-md-3
+              .product-info-price
+                h3 
+                  | 150
+                  span грн
+                
+            .col-md-3.text-right
+              a.btn.b-big(href="") Подробней
+          
+    include includes/footer  
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js")
+    script(src="https://use.fontawesome.com/2b87f5494f.js")
+    script(src="js/lib/slick.min.js")
+    script(src="js/scripts.js")
+    
+    
+    
+  
