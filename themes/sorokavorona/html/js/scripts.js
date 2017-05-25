@@ -14,6 +14,7 @@ $(document).ready(function () {
   
   
   // products slider on main page
+  
   $('.slider-main-product').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -50,10 +51,9 @@ $(document).ready(function () {
         arrows: true
       }
     }
-    
+
   ]
   });
-  
   
   
   // click product
@@ -244,6 +244,10 @@ $(document).ready(function () {
 
 
   });
+  
+  
+  
+  
 
 
   // toogle cart page registration or login
@@ -273,12 +277,7 @@ $(document).ready(function () {
 
 
   
-  $('.slider-product').slick({
-    dots: false,
-    speed: 300,
-    slidesToShow: 1
-
-  });
+  
   
   
   

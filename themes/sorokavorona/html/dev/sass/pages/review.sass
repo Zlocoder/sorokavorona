@@ -6,6 +6,9 @@
     display: block
     margin: auto
     margin-bottom: 1em
+  .open-login
+    border: 0
+    padding: 1em
 
 .review-new-review
   .avatar-review
@@ -47,6 +50,8 @@
     text-align: left
     background: transparent
     color: #333
+    &.red
+      border: 1px solid red
   .text-area-box
     background: #eee
     padding-bottom: 20px
@@ -59,12 +64,14 @@
       box-shadow: none
       padding: 20px
       font-size: 20px
+      &.red
+        border: 1px solid red
     .btn
       width: 160px
       border: 0
       padding: .5em
       margin: 0 auto
-      background: $blue
+      background: $dark-blue
       font-size: 1.3em
       text-align: center
       color: #fff

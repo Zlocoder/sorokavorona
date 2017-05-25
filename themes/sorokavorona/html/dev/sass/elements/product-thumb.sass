@@ -27,15 +27,15 @@
     will-change: transform
     transition: all .5s ease-in-out
     @include mobil
-      height: 125px
+      height: 105px
     .pic
       height: 250px
-      background: #f1f1f1
+      background: #fff
       background-size: cover
       background-position: center
       @include mobil
-        background-size: contain
-        height: 125px
+        background-size: cover
+        height: 105px
         background-repeat: no-repeat
       
     &.big
@@ -108,6 +108,7 @@
       border: 1px solid $pink
       @include mobil
         font-size: 12px
+        margin: 0
       
     
   &:hover

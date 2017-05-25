@@ -16,6 +16,8 @@
         color: #333
     button.open-off-menu
       height: 55px
+    .open-call, .open-search
+      color: #000
     .logo
       .logo-half-one img
         transform: translateY(-25px) scale(.6)
@@ -30,7 +32,8 @@
       height: 55px
     &.resize
       background: $blue
-      
+      .open-call, .open-search
+        color: #fff
   .off-canvas-header
     padding-top: 55px
     
@@ -48,10 +51,12 @@
   padding: 0
   margin: 0
   overflow: hidden
-  background: #ddd
+  background: #fff
   @include mobil
-    min-height: 350px
+    min-height: 100%
     height: 100%
+  img
+    max-width: 100%
   .pic
     width: 100%
     margin: auto
@@ -65,11 +70,14 @@
       background-repeat: no-repeat
       background-position: center
     @include mobil
-      min-height: 350px
+      min-height: 240px
       height: 100%
   .video-box
     position: relative
-    z-index: 10
+    padding-bottom: 56.25%
+    padding-top: 30px
+    height: 0
+    overflow: hidden
     .video-cover
       position: absolute
       width: 100%
@@ -79,17 +87,20 @@
       background-size: cover
       background-position: center
       transition: all .3s ease-in-out
-      @include mobil
-        background-size: 200%
+      @include tablet-h
+        background-size: contain
         background-repeat: no-repeat
-        background-position: center
+        background-position: top
+     
     iframe
+      position: absolute
+      top: 0
+      left: 0
       width: 100%
-      height: 100vh
-      position: relative
-      @include mobil
-        min-height: 350px
-        height: 100%
+      height: 100%
+      opacity: 0
+      
+        
     &:before
       content: ''
       position: absolute
@@ -104,6 +115,8 @@
       background: #fff
       z-index: 100
       transition: all .3s ease-in-out
+      @include mobil
+        transform: scale(.5)
     &:after
       content: ''
       position: absolute
@@ -120,10 +133,14 @@
       z-index: 200
       pointer-events: none
       transition: all .3s ease-in-out
+      @include mobil
+          transform: scale(.5)
     &.no-cover
       .video-cover
         opacity: 0
         visibility: hidden
+      iframe
+        opacity: 1
       &:after, &:before
         transform: scale(.5)
         opacity: 0
@@ -140,21 +157,23 @@
       right: 0
       width: 30%
       cursor: url(../media/right-arrow.png), auto
+      
+      background-image: url(../media/right-arrow.png)
+      background-size: 20px
+      background-position: 90% center
+      background-repeat: no-repeat
       @include tablet-h
-        background-image: url(../media/right-arrow.png)
-        background-size: 40px
-        background-position: 90% center
-        background-repeat: no-repeat
       
     &.slick-prev
       left: 0
       width: 30%
       cursor: url(../media/left-arrow.png), auto
+      
+      background-image: url(../media/left-arrow.png)
+      background-size: 20px
+      background-position: 10% center
+      background-repeat: no-repeat
       @include tablet-h
-        background-image: url(../media/left-arrow.png)
-        background-size: 40px
-        background-position: 10% center
-        background-repeat: no-repeat
     
 
 .product-page-controls
