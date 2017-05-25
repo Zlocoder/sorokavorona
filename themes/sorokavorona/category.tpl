@@ -40,7 +40,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="filter-box">
+					<div class="filters-box">
 						<ul>
                             {foreach from=$subcategories item=subcategory}
 								<li>

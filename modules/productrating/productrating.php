@@ -59,9 +59,7 @@ class ProductRating extends Module
     {
         $this->context->controller->addCSS(($this->_path) . 'css/rating.css');
         $this->context->controller->addJS(($this->_path) . 'js/rating.js');
-        $this->context->controller->addJqueryUI('ui.progressbar');
-
-
+        //$this->context->controller->addJqueryUI('ui.progressbar');
     }
 
     protected function createTable()

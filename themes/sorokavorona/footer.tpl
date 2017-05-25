@@ -55,11 +55,11 @@
 				<div class="col-md-3"><a href="">sales@sorokavorona.com.ua</a><a href="">+38 (096) 033-77-00</a></div>
 				<div class="col-md-3"><a href="">+38 (050) 711-44-15</a><a href="">+38 (063) 313-11-33</a></div>
 				<div class="col-md-3 text-right">
-					<button class="btn close-contact">Закрыть ×</button>
+					<button class="btn close-contact"><span>Закрыть</span> ×</button>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row steps-here">
 				<div class="col-md-12">
 					<form action="">
 						<div class="first-step step">

@@ -19,18 +19,18 @@ html(lang='en')
       section.product-page-hero
         ul.slider-product
           li
-            .pic(style="background-image: url(media/img-p/10/07.jpg)")
+            img(src="media/img-p/10/07.jpg", alt="")
+            //.pic(style="background-image: url(media/img-p/10/07.jpg)")
           li
             .video-box
               iframe(type='text/html', src='https://www.youtube.com/embed/uxpDa-c-4Mc?controls=0&fs=0&rel=0&showinfo=0&color=white&enablejsapi=1', frameborder='0', allowfullscreen='')
               .video-cover(style="background-image: url(media/img-p/10/09.jpg)")
-
-
-           
           li
-            .pic(style="background-image: url(media/img-p/10/016.jpg)")
+            img(src="media/img-p/10/016.jpg", alt="")
+            //.pic(style="background-image: url(media/img-p/10/016.jpg)")
           li
-            .pic(style="background-image: url(media/img-p/10/020.jpg)")
+            img(src="media/img-p/10/020.jpg", alt="")
+            //.pic(style="background-image: url(media/img-p/10/020.jpg)")
         .product-page-controls
           .container-fluid
             .row
@@ -361,7 +361,7 @@ html(lang='en')
           
             .col-md-5.col-md-pull-4.col-sm-12.col-xs-12
               // no comments on page
-              .user-comments
+              //.user-comments
                 h6 Комментарии:
                 .comment-item.no-comment
                   img(src="media/icons/15.png", alt="")
@@ -372,7 +372,7 @@ html(lang='en')
                   
             
               // Comments on page
-              //.users-comments
+              .users-comments
                 h6 Комментарии:
                 .comment-item
                   .comment-info
@@ -384,6 +384,9 @@ html(lang='en')
                   .comment-body
                     h5 Очень интересная игрушка
                     p Никогда прежде не играл в машинки. Но вот решил купить у вас на сайте, изза того что у товара были очень высокие оценки. И вы правы! Просто потрясающе
+                  .comment-soroka-respons
+                    h5 ответ администрации
+                    p Печатай это слово каждый раз по новому и снова и снова пока не закончится весь текст
                 .comment-item
                   .comment-info
                     span
@@ -394,16 +397,7 @@ html(lang='en')
                   .comment-body
                     h5 Машинки сломались!
                     p Спустя буквально 15 минут после начала игры у одной машинки отпало колесо, у второй слезли наклейки, а третья куда-то пропала.
-                .comment-item
-                  .comment-info
-                    span
-                      i.fa.fa-user 
-                      |  Роман Труба
-                    span.date
-                      | 20 марта 2017
-                  .comment-body
-                    h5 Последний комментарий, просто невероятно! А тут всего 60
-                    p Ниже будет пагинация, потому что будем отображать только 3 комментария и ограничим заголовки и комментарии. Максимум три строки комментария получится. Не больше! Остальное нужно заполнить текстом, чтобы третья строка отобразилась. 230 символов
+                
                     
                 ul.pagination  
                   li
@@ -418,7 +412,7 @@ html(lang='en')
                   li
                     a(href="")
                       img(src="media/right-arrow.png", alt="")
-      section.product-page-hero
+      section.product-page-hero.preview-product
         ul.slider-product
           li
             .pic(style="background-image: url(media/img-p/10/05.jpg)")
@@ -429,69 +423,66 @@ html(lang='en')
             .pic(style="background-image: url(media/img-p/10/011.jpg)")
         .container-fluid.product-page-content
           .row.product-page-title
-            .col-md-6
+            .col-md-6.col-xs-12
               .row
                 .col-md-12
                   .product-info-title
                     h1 Лица животных
  
-            .col-md-3
+            .col-md-3.col-xs-6
               .product-info-price
                 h3 
                   | 150
                   span грн
                 
-            .col-md-3.text-right
+            .col-md-3.col-xs-6.text-right
               a.btn.b-big(href="") Подробней
-      section.product-page-hero
+      section.product-page-hero.preview-product
         ul.slider-product
           li
-            .pic(style="background-image: url(media/img-p/10/06.jpg)")
-                
+            .pic(style="background-image: url(media/img-p/10/06.jpg)")  
           li
             .pic(style="background-image: url(media/img-p/10/03.jpg)")
           li
             .pic(style="background-image: url(media/img-p/10/011.jpg)")
         .container-fluid.product-page-content
           .row.product-page-title
-            .col-md-6
+            .col-md-6.col-xs-12
               .row
                 .col-md-12
                   .product-info-title
                     h1 Ниндзя
  
-            .col-md-3
+            .col-md-3.col-xs-6
               .product-info-price
                 h3 
                   | 150
                   span грн
-                
-            .col-md-3.text-right
+            .col-md-3.col-xs-6.text-right
               a.btn.b-big(href="") Подробней
-      section.product-page-hero
+      section.product-page-hero.preview-product
         ul.slider-product
           li
             .pic(style="background-image: url(media/img-p/10/03.jpg)")
-                
           li
             .pic(style="background-image: url(media/img-p/10/021.jpg)")
           li
             .pic(style="background-image: url(media/img-p/10/011.jpg)")
         .container-fluid.product-page-content
           .row.product-page-title
-            .col-md-6
+            .col-md-6.col-xs-12
               .row
                 .col-md-12
                   .product-info-title
-                    h1 Батут
+                    h1 Батут разрез который сходится внутри блока
  
-            .col-md-3
+            .col-md-3.col-xs-6
               .product-info-price
                 h3 
                   | 150
                   span грн
                 
-            .col-md-3.text-right
+            .col-md-3.col-xs-6.text-right
               a.btn.b-big(href="") Подробней
           
     include includes/footer  
@@ -501,7 +492,13 @@ html(lang='en')
     script(src="https://use.fontawesome.com/2b87f5494f.js")
     script(src="js/lib/slick.min.js")
     script(src="js/scripts.js")
-    
+    script.
+      $('.slider-product').slick({
+        dots: false,
+        speed: 300,
+        slidesToShow: 1
+
+      });
     
     
   

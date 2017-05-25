@@ -22,6 +22,14 @@
     background: $pink
     border: 0
     z-index: 10
+    @include mobil
+      position: absolute
+      top: -100px
+      right: 10px
+      width: 60px
+      display: block
+      span
+        display: none
     
   .info-contact
     h6
@@ -32,6 +40,9 @@
       font-size: 14px
       color: #999
       letter-spacing: 1px
+  .steps-here
+    .col-md-12
+      padding: 0
   form
     position: relative
     textarea
@@ -44,21 +55,27 @@
       font-weight: 300
       letter-spacing: 1px
       border: 2px solid transparent
+      @include mobil
+        height: 200px
+        padding: 10px
       &.red
         border: 2px solid red
     button, .send
-      position: absolute
-      top: 365px
-      left: 0
       font-size: 20px
-      z-index: 10
       max-width: 200px
+      display: block
+      @include mobil
+        margin-left: 15px
+        margin-top: 15px
     input[type=text]
       width: 100%
       height: 400px
       background: transparent
       font-size: 40px
       border: 2px solid transparent
+      @include mobil
+        padding: 15px
+        height: 200px
       &.red
         border: 2px solid red
     .step

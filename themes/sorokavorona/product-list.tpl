@@ -27,7 +27,7 @@
 	{foreach from=$products item=product name=products}
 		<div class="col-md-3 col-xs-6">
 			<div class="product-thumb">
-				<a href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}"></a>
+				<a class="to-product-link" href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}"></a>
 
 				<div class="product-pic">
 					<div class="pic" style="background-image: url({$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'})"></div>
