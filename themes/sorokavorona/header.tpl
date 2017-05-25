@@ -54,7 +54,6 @@
 </head>
 
 <body class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}">
-{*<body class="catalog-page loading">*}
 	{if !isset($content_only) || !$content_only}
 		<header>
 			<div class="container-fluid">
@@ -108,8 +107,8 @@
 				</ul>
 				<ul class="main-menu">
 					<li><a href="index.html">Главная</a></li>
-					<li><a href="about.html">Оплата</a></li>
-					<li><a href="about.html">Доставка</a></li>
+					<li><a href="about.html#link-payment">Оплата</a></li>
+					<li><a href="about.html#link-delivery">Доставка</a></li>
 					<li><a href="about.html#link-why-us">Почему мы?</a></li>
 					<li><a href="about.html#link-question">Вопросы и ответы</a></li>
 					<li><a href="review.html">Отзывы</a></li>
