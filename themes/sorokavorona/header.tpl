@@ -138,6 +138,15 @@
 
 			<div class="second-menu">
 				<ul class="category-menu-header">
+					{foreach from=$menu_categories item=category}
+						<li>
+							<a href="{$link->getCategoryLink($category.id_category, $category.link_rewrite)}">
+								<span class="icon"><img src="{$link->getCatImageLink('0', $category.id_category, 'medium_default')}" /></span>
+								<h2>{$category.name|escape:'html':'UTF-8'}</h2>
+							</a>
+						</li>
+					{/foreach}
+					<!--
 					<li><a href="catalog.html"> <span class="icon"><img src="media/emoji/1.gif" alt=""></span>
 							<h2 class="title">Для малышей</h2></a></li>
 					<li><a href="catalog.html"> <span class="icon"><img src="media/emoji/3.png" alt=""></span>
@@ -165,6 +174,7 @@
 							<h2 class="title">Спорт</h2></a></li>
 					<li><a href="catalog.html"> <span class="icon"><img src="media/emoji/11.png" alt=""></span>
 							<h2 class="title">Уход за малышами</h2></a></li>
+					-->
 				</ul>
 			</div>
 		</div>
