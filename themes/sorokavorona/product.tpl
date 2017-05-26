@@ -24,6 +24,17 @@
 *}
 {include file="$tpl_dir./errors.tpl"}
 {if $errors|@count == 0}
+    {if !isset($priceDisplayPrecision)}
+        {assign var='priceDisplayPrecision' value=2}
+    {/if}
+    {if !$priceDisplay || $priceDisplay == 2}
+        {assign var='productPrice' value=$product->getPrice(true, $smarty.const.NULL, 6)}
+        {assign var='productPriceWithoutReduction' value=$product->getPriceWithoutReduct(false, $smarty.const.NULL)}
+    {elseif $priceDisplay == 1}
+        {assign var='productPrice' value=$product->getPrice(false, $smarty.const.NULL, 6)}
+        {assign var='productPriceWithoutReduction' value=$product->getPriceWithoutReduct(true, $smarty.const.NULL)}
+    {/if}
+
 	<div itemscope itemtype="https://schema.org/Product">
 		<meta itemprop="url" content="{$link->getProductLink($product)}">
 
@@ -109,7 +120,7 @@
 							</a>
 						</div>
 
-						<div class="product-info-buy"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || (isset($restricted_country_mode) && $restricted_country_mode) || $PS_CATALOG_MODE} class="unvisible"{/if}>
+						<div id="add_to_cart" class="product-info-buy" data-product_id="{$product->id}">
 							<button type="submit" name="Submit" class="btn exclusive added"><i class="fa fa-cart-plus"></i> Купить</button>
 						</div>
 
