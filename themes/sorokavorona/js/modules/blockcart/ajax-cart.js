@@ -139,10 +139,10 @@ var ajaxCart = {
 				ajaxCart.add(idProduct, idProductAttribute, false, this, minimalQuantity);
 		});
 		//for product page 'add' button...
-		if ($('.cart_block').length) {
+		if ($(document.body).hasClass('product-page')) {
 			$(document).off('click', '#add_to_cart button').on('click', '#add_to_cart button', function(e){
 				e.preventDefault();
-				ajaxCart.add($('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null);
+				ajaxCart.add($('#add_to_cart').data('product_id'), null, true, null, $('#quantity_wanted').val(), null);
 			});
 		}
 

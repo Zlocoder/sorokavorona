@@ -85,10 +85,16 @@
 					<div class="col-sm-4 col-sx-5">
 						<button class="open-call"><i class="fa fa-phone"></i></button>
 
+                        {capture name='displayNav'}{hook h='displayNav'}{/capture}
+                        {if $smarty.capture.displayNav}
+							{$smarty.capture.displayNav}
+                        {/if}
+
 						<a href="" class="cart-box">
 							<i class="fa fa-shopping-cart"></i>
 							<p>0</p>
 						</a>
+						<div class="product-in-box"><img src="media/icons/5.png" alt=""><span>товар в корзине</span></div>
 					</div>
 				</div>
 			</div>
@@ -177,8 +183,6 @@
 				</ul>
 			</div>
 		</div>
-
-		<div class="product-in-box"><img src="media/icons/5.png" alt=""><span>товар в корзине</span></div>
 
 		<div class="search-box">
 			<button class="close-modal"></button>

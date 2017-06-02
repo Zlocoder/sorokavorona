@@ -24,6 +24,17 @@
 *}
 {include file="$tpl_dir./errors.tpl"}
 {if $errors|@count == 0}
+    {if !isset($priceDisplayPrecision)}
+        {assign var='priceDisplayPrecision' value=2}
+    {/if}
+    {if !$priceDisplay || $priceDisplay == 2}
+        {assign var='productPrice' value=$product->getPrice(true, $smarty.const.NULL, 6)}
+        {assign var='productPriceWithoutReduction' value=$product->getPriceWithoutReduct(false, $smarty.const.NULL)}
+    {elseif $priceDisplay == 1}
+        {assign var='productPrice' value=$product->getPrice(false, $smarty.const.NULL, 6)}
+        {assign var='productPriceWithoutReduction' value=$product->getPriceWithoutReduct(true, $smarty.const.NULL)}
+    {/if}
+
 	<div itemscope itemtype="https://schema.org/Product">
 		<meta itemprop="url" content="{$link->getProductLink($product)}">
 
@@ -109,7 +120,7 @@
 							</a>
 						</div>
 
-						<div class="product-info-buy"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || (isset($restricted_country_mode) && $restricted_country_mode) || $PS_CATALOG_MODE} class="unvisible"{/if}>
+						<div id="add_to_cart" class="product-info-buy" data-product_id="{$product->id}">
 							<button type="submit" name="Submit" class="btn exclusive added"><i class="fa fa-cart-plus"></i> Купить</button>
 						</div>
 
@@ -119,13 +130,35 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="product-page-features">
-									<ul>{foreach from=$features item=feature}
+									<ul>
+										<li>
+                                            {if isset($features) && $features}
+                                                {foreach from=$features item=feature}
+                                                    {if $feature.id_feature == '8'}
+														<span>{$feature.name|escape:'html':'UTF-8'}:</span>
+                                                        {$feature.value|escape:'html':'UTF-8'}
+                                                    {/if}
+                                                {/foreach}
+                                            {/if}
+										</li>
+										<li id="product_reference"{if empty($product->reference) || !$product->reference} style="display: none;"{/if} style="color: #777; text-transform: uppercase; font-size: 12px; letter-spacing: 1px;">
+											<label>{l s='Артикул:'} </label>
+											<span class="editable" itemprop="sku" style="text-transform: none; color: #000; margin-bottom: 5px; font-size: 16px;" {if !empty($product->reference) && $product->reference} content="{$product->reference}"{/if}>{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
+										</li>
+
+                                        {foreach from=$features item=feature}
 											<li>
-                                                {if isset($feature.value)}
-													<span>{$feature.name|escape:'html':'UTF-8'}</span>
+                                                {if $feature.id_feature == '8'}
+													<p style="display: none;">{$feature.name|escape:'html':'UTF-8'}:
+                                                        {$feature.value|escape:'html':'UTF-8'}</p>
+                                                {else}
+
+													<span>{$feature.name|escape:'html':'UTF-8'}:</span>
                                                     {$feature.value|escape:'html':'UTF-8'}
+
                                                 {/if}
 											</li>
+
                                         {/foreach}
 									</ul>
 								</div>
@@ -469,49 +502,57 @@
 			<!--Accessories -->
 			<ul>
                 {foreach from=$accessories item=accessory name=accessories_list}
-					<li>
-						<section class="product-page-hero">
-							<ul class="slider-product">
-                                {if isset($images)}
-                                    {foreach from=$images item=image}
-										<li>
-											<div style="background-image: url({$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'large_default')|escape:'html':'UTF-8'})" class="pic"></div>
-										</li>
-                                    {/foreach}
-                                {/if}
-							</ul>
-							<div class="container-fluid product-page-content">
-								<div class="row product-page-title">
-									<div class="col-md-6">
-										<div class="row">
-											<div class="col-md-12">
-												<div class="product-info-title">
-													<h1>{$accessory.name|truncate:50:'...':true|escape:'html':'UTF-8'}</h1>
+                    {if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
+                        {assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
+
+						<li style="list-style-type: none;">
+							<section class="product-page-hero">
+								<ul class="slider-product">
+                                    {if isset($images)}
+                                        {foreach from=$images item=image}
+											<li>
+												<div style="background-image: url({$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'large_default')|escape:'html':'UTF-8'})" class="pic"></div>
+											</li>
+                                        {/foreach}
+                                    {/if}
+								</ul>
+								<div class="container-fluid product-page-content">
+									<div class="row product-page-title">
+										<div class="col-md-6">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="product-info-title">
+														<h1>{$accessory.name|truncate:50:'...':true|escape:'html':'UTF-8'}</h1>
+													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="product-info-price">
-											<h3>{if $accessory.show_price && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}
-													<span class="price">
-												{if $priceDisplay != 1}
-                                                    {displayWtPrice p=$accessory.price}
-                                                {else}
-                                                    {displayWtPrice p=$accessory.price_tax_exc}
-                                                {/if}
+										<div class="col-md-3">
+											<div class="product-info-price">
+												<h3>{if $accessory.show_price && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}
+
+                                                        {if $priceDisplay != 1}
+                                                            {displayWtPrice p=$accessory.price}
+                                                        {else}
+                                                            {displayWtPrice p=$accessory.price_tax_exc}
+                                                        {/if}
                                                         {hook h="displayProductPriceBlock" product=$accessory type="price"}
-											</span>
-                                                {/if}
-												<span></span>
-											</h3>
+
+                                                    {/if}
+													<span></span>
+												</h3>
+											</div>
+										</div>
+										<div class="col-md-3 text-right">
+											<a href="{$accessoryLink|escape:'html':'UTF-8'}"
+											   title="{$accessory.legend|escape:'html':'UTF-8'}"
+											   class="btn b-big">Подробней</a>
 										</div>
 									</div>
-									<div class="col-md-3 text-right"><a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}" class="btn b-big">Подробней</a></div>
 								</div>
-							</div>
-						</section>
-					</li>
+							</section>
+						</li>
+                    {/if}
                 {/foreach}
 			</ul>
 
